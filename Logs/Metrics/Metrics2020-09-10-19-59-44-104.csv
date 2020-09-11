@@ -1,0 +1,5 @@
+Id,Prediction,Date,File,StartTime,ElapsedTime,BusyTime,Commands,editOrInsertPercentage,debugPercentage,navigationPercentage,focusPercentage,removePercentage,editPercentage,COMMAND_RATE,NAVIGATION_RATE,DEBUG_RATE,FOCUS_RATE,EDIT_RATE,REMOVE_RATE,INSERT_RATE,webLinkTimes,Web Page Visits
+1,,Thu Sep 10 20:06:15 EDT 2020,SocialDistancingUtil.java,1599782775003,1466,1466,(I)25,1.0,0.0,0.0,0.0,0.0,0.0,25.0,0.0,0.0,0.0,0.0,0.0,25.0,0.0,[]
+,/modelData/A0UserStudy2010.arff,Thu Sep 10 20:06:15 EDT 2020,SocialDistancingUtil.java, 1599782775003
+2,,Thu Sep 10 20:06:16 EDT 2020,SocialDistancingUtil.java,1599782776693,3633,3633,(I)25,1.0,0.0,0.0,0.0,0.0,0.0,8.333333333333334,0.0,0.0,0.0,0.0,0.0,8.333333333333334,0.0,[]
+3,,Thu Sep 10 20:06:20 EDT 2020,SocialDistancingUtil.java,1599782780609,7783,7783,(I)10,1.0,0.0,0.0,0.0,0.0,0.0,1.4285714285714286,0.0,0.0,0.0,0.0,0.0,1.4285714285714286,0.0,[]
