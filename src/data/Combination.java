@@ -1,12 +1,12 @@
 package data;
 
-public class SafeCombination {
+public class Combination {
 	
 	private int distance;
 	private int duration;
 	private int exhalationLevel;
 	
-	public SafeCombination(int distance, int duration, int exhalationLevel) {
+	public Combination(int distance, int duration, int exhalationLevel) {
 		this.distance = distance;
 		this.duration = duration;
 		this.exhalationLevel = exhalationLevel;

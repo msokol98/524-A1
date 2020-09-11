@@ -1,20 +1,18 @@
 package util;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import data.SafeCombination;
-import data.SafeCombinations;
-import java.util.stream.Stream;
 import java.util.Optional;
-import static java.util.stream.Collectors.toList;
+
+import data.Combination;
+import data.SafeCombinations;
 
 public class SocialDistancingUtil {
 	
 	public static boolean isInterpolatedSafe(int distance, int duration, int exhalationLevel) {
-		Interpolator intrpl = Interpolator.getInstance();
-		return isGivenSafe(intrpl.interpolate(distance));
+		Combination givenComb = new Combination(distance, duration, exhalationLevel);
+		Combination interpolatedCombination = Interpolator.getInstance().interpolate(givenComb);
+		return isGivenSafe(interpolatedCombination.getDistance(), interpolatedCombination.getDuration(), interpolatedCombination.getExhalationLevel());
 	}
 	
 	public static boolean isInterpolatedSafe(int distance, int duration) {
@@ -26,9 +24,9 @@ public class SocialDistancingUtil {
 	}
 	
 	public static boolean isGivenSafe(int distance, int duration, int exhalationLevel) {
-		List<SafeCombination> safeCombinations = SafeCombinations.getSafeCombinations();
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
 		
-		Optional<SafeCombination> givenCombination = 
+		Optional<Combination> givenCombination = 
 				safeCombinations
 					.stream()
 					.filter(comb -> comb.getDistance() == distance && comb.getDuration() == duration && comb.getExhalationLevel() == exhalationLevel)
@@ -39,7 +37,15 @@ public class SocialDistancingUtil {
 				
 	
 	public static boolean isDerivedSafe(int distance, int duration, int exhalationLevel) {
-		return true;
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() < distance && comb.getDuration() > duration && comb.getExhalationLevel() > exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
 	}
 	
 	public static void printGeneratedCombinationDerivedSafety() {

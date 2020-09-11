@@ -1,5 +1,7 @@
 package util;
 
+import data.Combination;
+
 public class Interpolator {
 	
 	private static Interpolator theInterpolator;
@@ -12,16 +14,25 @@ public class Interpolator {
 		return theInterpolator;
 	}
 
-	public int interpolateDistance(int distance) {
+	private int interpolateDistance(int distance) {
 		return distance;
 	}
 	
-	public int interpolateDuration(int duration) {
+	private int interpolateDuration(int duration) {
 		return duration;
 	}
 	
-	public int interpolateExhalationLevel(int exhalationLevel) {
+	private int interpolateExhalationLevel(int exhalationLevel) {
 		return exhalationLevel;
+	}
+
+	public Combination interpolate(Combination combination) {
+		
+		int iDistance = interpolateDistance(combination.getDistance());
+		int iDuration = interpolateDuration(combination.getDuration());
+		int iExhalationLevel  = interpolateExhalationLevel(combination.getExhalationLevel());
+		
+		return new Combination(iDistance, iDuration, iExhalationLevel);
 	}
 	
 }
