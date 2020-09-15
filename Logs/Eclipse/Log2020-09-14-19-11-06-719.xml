@@ -1,0 +1,282 @@
+<Events startTimestamp="1600125066719" logVersion="1.0.0.202008151525">
+  <Command __id="2" _type="ShellCommand" date="Mon Sep 14 19:11:07 EDT 2020" starttimestamp="1600125066719" timestamp="570" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4" _type="MoveCaretCommand" caretOffset="984" date="Mon Sep 14 19:11:07 EDT 2020" docOffset="984" starttimestamp="1600125066719" timestamp="1209" />
+  <Command __id="5" _type="ShellCommand" date="Mon Sep 14 19:11:25 EDT 2020" starttimestamp="1600125066719" timestamp="18647" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="11" _type="EclipseCommand" commandID="" date="Mon Sep 14 19:12:09 EDT 2020" starttimestamp="1600125066719" timestamp="62615" />
+  <Command __id="12" _type="EclipseCommand" commandID="" date="Mon Sep 14 19:12:09 EDT 2020" starttimestamp="1600125066719" timestamp="62640" />
+  <Command __id="3" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 19:11:07 EDT 2020" docASTNodeCount="344" docActiveCodeLength="2621" docExpressionCount="191" docLength="2621" projectName="a1" starttimestamp="1600125066719" timestamp="1110">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/util/SocialDistancingUtil.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package util;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import data.Combination;
+import data.SafeCombinations;
+
+public class SocialDistancingUtil {
+	
+	public static boolean isInterpolatedSafe(int distance, int duration, int exhalationLevel) {
+		Combination givenComb = new Combination(distance, duration, exhalationLevel);
+		Combination interpolatedCombination = Interpolator.getInstance().interpolate(givenComb);
+		return isGivenSafe(interpolatedCombination.getDistance(), interpolatedCombination.getDuration(), interpolatedCombination.getExhalationLevel());
+	}
+	
+	public static boolean isInterpolatedSafe(int distance, int duration) {
+		return isInterpolatedSafe(distance, duration, 0);
+	}
+	
+	public static boolean isInterpolatedSafe(int distance) {
+		return isInterpolatedSafe(distance, 0, 0);
+	}
+	
+	public static boolean isGivenSafe(int distance, int duration, int exhalationLevel) {
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() == distance && comb.getDuration() == duration && comb.getExhalationLevel() == exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
+	}
+				
+	
+	public static boolean isDerivedSafe(int distance, int duration, int exhalationLevel) {
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() < distance && comb.getDuration() > duration && comb.getExhalationLevel() > exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
+	}
+	
+	public static void printGeneratedCombinationDerivedSafety() {
+		int distance = (int) Math.random();
+		int duration = (int) Math.random();
+		int exhalationLevel = (int) Math.random();
+		boolean isSafe  = isDerivedSafe(distance, duration, exhalationLevel);
+		
+		System.out.println(distance + "," + duration + "," + exhalationLevel + "," + isSafe);
+	}
+	
+	public static void printGivenAndGeneratedCombinationsDerivedSaftey() {
+		for(int i = 0; i < 10; i++)
+			printGeneratedCombinationDerivedSafety();
+	}
+	
+	public static List<Integer[]> generateSafeDistancesAndDurations(int exhalationLevel) {
+		List<Integer[]> pairs = new ArrayList<>();
+		return pairs;
+	}
+	
+	public static void printSafeDistancesAndDurations(int exhalationLevel) {
+		List<Integer[]> pairs = generateSafeDistancesAndDurations(exhalationLevel);
+		System.out.println(exhalationLevel + "," + pairs.toString());
+	}
+	
+	
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="8" _type="Replace" date="Mon Sep 14 19:12:08 EDT 2020" docASTNodeCount="534" docActiveCodeLength="3980" docExpressionCount="324" docLength="3980" endLine="76" insertionLength="3980" int_docASTNodeCount="1" int_docActiveCodeLength="0" int_docExpressionCount="0" int_docLength="0" length="2621" offset="0" startLine="0" starttimestamp="1600125066719" timestamp="61438">
+    <deletedText><![CDATA[package util;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import data.Combination;
+import data.SafeCombinations;
+
+public class SocialDistancingUtil {
+	
+	public static boolean isInterpolatedSafe(int distance, int duration, int exhalationLevel) {
+		Combination givenComb = new Combination(distance, duration, exhalationLevel);
+		Combination interpolatedCombination = Interpolator.getInstance().interpolate(givenComb);
+		return isGivenSafe(interpolatedCombination.getDistance(), interpolatedCombination.getDuration(), interpolatedCombination.getExhalationLevel());
+	}
+	
+	public static boolean isInterpolatedSafe(int distance, int duration) {
+		return isInterpolatedSafe(distance, duration, 0);
+	}
+	
+	public static boolean isInterpolatedSafe(int distance) {
+		return isInterpolatedSafe(distance, 0, 0);
+	}
+	
+	public static boolean isGivenSafe(int distance, int duration, int exhalationLevel) {
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() == distance && comb.getDuration() == duration && comb.getExhalationLevel() == exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
+	}
+				
+	
+	public static boolean isDerivedSafe(int distance, int duration, int exhalationLevel) {
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() < distance && comb.getDuration() > duration && comb.getExhalationLevel() > exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
+	}
+	
+	public static void printGeneratedCombinationDerivedSafety() {
+		int distance = (int) Math.random();
+		int duration = (int) Math.random();
+		int exhalationLevel = (int) Math.random();
+		boolean isSafe  = isDerivedSafe(distance, duration, exhalationLevel);
+		
+		System.out.println(distance + "," + duration + "," + exhalationLevel + "," + isSafe);
+	}
+	
+	public static void printGivenAndGeneratedCombinationsDerivedSaftey() {
+		for(int i = 0; i < 10; i++)
+			printGeneratedCombinationDerivedSafety();
+	}
+	
+	public static List<Integer[]> generateSafeDistancesAndDurations(int exhalationLevel) {
+		List<Integer[]> pairs = new ArrayList<>();
+		return pairs;
+	}
+	
+	public static void printSafeDistancesAndDurations(int exhalationLevel) {
+		List<Integer[]> pairs = generateSafeDistancesAndDurations(exhalationLevel);
+		System.out.println(exhalationLevel + "," + pairs.toString());
+	}
+	
+	
+}
+]]></deletedText>
+    <insertedText><![CDATA[package util;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import data.Combination;
+import data.Constants;
+import data.SafeCombinations;
+import static java.util.stream.Collectors.toList;
+
+public class SocialDistancingUtil {
+	
+	public static boolean isInterpolatedSafe(int distance, int duration, int exhalationLevel) {
+		Combination givenComb = new Combination(distance, duration, exhalationLevel);
+		Combination interpolatedCombination = Interpolator.getInstance().interpolate(givenComb);
+		return isGivenSafe(interpolatedCombination.getDistance(), interpolatedCombination.getDuration(), interpolatedCombination.getExhalationLevel());
+	}
+	
+	public static boolean isInterpolatedSafe(int distance, int duration) {
+		return isInterpolatedSafe(distance, duration, Constants.MEDIUM_EXHALATION_LEVEL);
+	}
+	
+	public static boolean isInterpolatedSafe(int distance) {
+		return isInterpolatedSafe(distance, Constants.MEDIUM_DURATION, Constants.MEDIUM_EXHALATION_LEVEL);
+	}
+	
+	public static boolean isGivenSafe(int distance, int duration, int exhalationLevel) {
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() == distance && comb.getDuration() == duration && comb.getExhalationLevel() == exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
+	}
+				
+	
+	public static boolean isDerivedSafe(int distance, int duration, int exhalationLevel) {
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		Optional<Combination> givenCombination = 
+				safeCombinations
+					.stream()
+					.filter(comb -> comb.getDistance() < distance && comb.getDuration() > duration && comb.getExhalationLevel() > exhalationLevel)
+					.findAny();
+		
+		return givenCombination.isPresent();
+	}
+	
+	public static void printGeneratedCombinationDerivedSafety() {
+		int distance = (int) (Math.random() * 50);
+		int duration = (int) (Math.random() * 100);
+		int exhalationLevel = (int) (Math.random() * 50);
+				
+		boolean isSafe  = isDerivedSafe(distance, duration, exhalationLevel);
+		printCombination(new Combination(distance, duration, exhalationLevel), isSafe);
+	}
+	
+	public static void printGivenAndGeneratedCombinationsDerivedSaftey() {
+		System.out.println("Distance, Duration, Exhalation, IsSafe");
+		
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		for(Combination comb : safeCombinations)
+			printCombination(comb, true);
+		
+		System.out.println("---------------");
+		
+		for(int i = 0; i < 10; i++)
+			printGeneratedCombinationDerivedSafety();
+	}
+	
+	private static void printCombination(Combination c, boolean isSafe) {
+		System.out.println(c.getDistance() + "," + c.getDuration() + "," + 
+							c.getExhalationLevel() + "," + isSafe);
+	}
+	
+	private static List<Combination> getSafeCombsByInterpolatedExhalationLevel(int exhalationLevel) {
+		int interpolatedExhalationLevel = 
+				Interpolator.getInstance().interpolateExhalationLevel(exhalationLevel);
+		
+		List<Combination> safeCombinations = SafeCombinations.getSafeCombinations();
+		
+		return safeCombinations
+			.stream()
+			.filter(comb -> comb.getExhalationLevel() == interpolatedExhalationLevel)
+			.collect(toList());
+	}
+	
+	public static List<Integer[]> generateSafeDistancesAndDurations(int exhalationLevel) {
+		List<Integer[]> pairs = new ArrayList<>();
+		
+		for(Combination c : getSafeCombsByInterpolatedExhalationLevel(exhalationLevel)) 
+			pairs.add(new Integer[] {c.getDistance(), c.getDuration()});
+		
+		return pairs;
+	}
+	
+	public static void printSafeDistancesAndDurations(int exhalationLevel) {
+		List<Integer[]> pairs = generateSafeDistancesAndDurations(exhalationLevel);
+		
+		String pairsStr = "[";
+		for(Integer[] pair : pairs)
+			pairsStr += "{" + pair[0] + "," + pair[1] + "}";
+		pairsStr += "]";
+		
+		System.out.println(exhalationLevel + "," + pairsStr);
+	}
+	
+	
+}
+]]></insertedText>
+  </DocumentChange>
+  <Command __id="13" _type="EclipseCommand" commandID="org.eclipse.ui.file.refresh" date="Mon Sep 14 19:12:10 EDT 2020" starttimestamp="1600125066719" timestamp="63981" />
+</Events>
