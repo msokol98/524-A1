@@ -11757,3 +11757,1323 @@ Duration?
   <Command __id="4217" _type="RunCommand" date="Mon Sep 14 22:10:48 EDT 2020" kind="HitBreakPoint" projectName="a1" starttimestamp="1600132875216" timestamp="2973306" type="Run" />
   <Command __id="4218" _type="RunCommand" date="Mon Sep 14 22:10:48 EDT 2020" kind="HitBreakPoint" projectName="(Unknown)" starttimestamp="1600132875216" timestamp="2973306" type="Debug" />
   <Command __id="4219" _type="RunCommand" date="Mon Sep 14 22:10:48 EDT 2020" kind="HitBreakPoint" projectName="a1" starttimestamp="1600132875216" timestamp="2973306" type="Run" />
+  <Command __id="4220" _type="ShellCommand" date="Mon Sep 14 22:10:52 EDT 2020" starttimestamp="1600132875216" timestamp="2977267" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4221" _type="ShellCommand" date="Mon Sep 14 22:11:13 EDT 2020" starttimestamp="1600132875216" timestamp="2998365" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4222" _type="MoveCaretCommand" caretOffset="289" date="Mon Sep 14 22:11:13 EDT 2020" docOffset="289" starttimestamp="1600132875216" timestamp="2998438" />
+  <Command __id="4223" _type="ShellCommand" date="Mon Sep 14 22:11:14 EDT 2020" starttimestamp="1600132875216" timestamp="2999669" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4224" _type="ShellCommand" date="Mon Sep 14 22:11:16 EDT 2020" starttimestamp="1600132875216" timestamp="3000793" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4225" _type="ShellCommand" date="Mon Sep 14 22:11:17 EDT 2020" starttimestamp="1600132875216" timestamp="3001797" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4226" _type="ShellCommand" date="Mon Sep 14 22:11:51 EDT 2020" starttimestamp="1600132875216" timestamp="3036767" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4182" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:10:14 EDT 2020" docASTNodeCount="40" docActiveCodeLength="289" docExpressionCount="22" docLength="289" projectName="a1" starttimestamp="1600132875216" timestamp="2939746">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/InterpolatingMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import factories.ModelFactory;¶import model.InterpolatingModel;¶import util.MVCUtil;¶¶public class InterpolatingMain {¶	¶	public static void main(String[] args) {¶		ModelFactory.setSocialDistancingModel(new InterpolatingModel());¶		MVCUtil.startSocialDistancingMVC();¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="4228" _type="EclipseCommand" commandID="org.eclipse.jdt.ui.edit.text.java.rename.element" date="Mon Sep 14 22:12:27 EDT 2020" starttimestamp="1600132875216" timestamp="3072540" />
+  <Command __id="4229" _type="ShellCommand" date="Mon Sep 14 22:12:27 EDT 2020" starttimestamp="1600132875216" timestamp="3072557" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4230" _type="EclipseCommand" commandID="" date="Mon Sep 14 22:12:27 EDT 2020" starttimestamp="1600132875216" timestamp="3072591" />
+  <Command __id="4231" _type="EclipseCommand" commandID="" date="Mon Sep 14 22:12:27 EDT 2020" starttimestamp="1600132875216" timestamp="3072599" />
+  <Command __id="4232" _type="MoveCaretCommand" caretOffset="282" date="Mon Sep 14 22:12:28 EDT 2020" docOffset="282" starttimestamp="1600132875216" timestamp="3073367" />
+  <Command __id="4233" _type="MoveCaretCommand" caretOffset="131" date="Mon Sep 14 22:12:29 EDT 2020" docOffset="131" starttimestamp="1600132875216" timestamp="3074256" />
+  <Command __id="4234" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:12:35 EDT 2020" docASTNodeCount="40" docActiveCodeLength="271" docExpressionCount="22" docLength="271" projectName="a1" starttimestamp="1600132875216" timestamp="3080613">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/DerivingMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import factories.ModelFactory;¶import model.DerivedModel;¶import util.MVCUtil;¶¶public class DerivingMain {¶¶	public static void main(String[] args) {¶		ModelFactory.setSocialDistancingModel(new DerivedModel());¶		MVCUtil.startSocialDistancingMVC();¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="4235" _type="SelectTextCommand" caretOffset="120" date="Mon Sep 14 22:12:35 EDT 2020" end="120" start="108" starttimestamp="1600132875216" timestamp="3080659" />
+  <Command __id="4236" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:12:36 EDT 2020" docASTNodeCount="40" docActiveCodeLength="264" docExpressionCount="22" docLength="264" projectName="a1" starttimestamp="1600132875216" timestamp="3081327">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/BasicMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import factories.ModelFactory;¶import model.BasicModel;¶import util.MVCUtil;¶¶public class BasicMain {¶¶	public static void main(String[] args) {¶		ModelFactory.setSocialDistancingModel(new BasicModel());¶		MVCUtil.startSocialDistancingMVC();¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="4237" _type="MoveCaretCommand" caretOffset="220" date="Mon Sep 14 22:12:36 EDT 2020" docOffset="220" starttimestamp="1600132875216" timestamp="3081386" />
+  <Command __id="4239" _type="MoveCaretCommand" caretOffset="307" date="Mon Sep 14 22:12:38 EDT 2020" docOffset="307" starttimestamp="1600132875216" timestamp="3083171" />
+  <Command __id="4240" _type="MoveCaretCommand" caretOffset="306" date="Mon Sep 14 22:12:39 EDT 2020" docOffset="306" starttimestamp="1600132875216" timestamp="3084426" />
+  <Command __id="4241" _type="MoveCaretCommand" caretOffset="14" date="Mon Sep 14 22:12:41 EDT 2020" docOffset="14" starttimestamp="1600132875216" timestamp="3086538" />
+  <Command __id="4242" _type="MoveCaretCommand" caretOffset="48" date="Mon Sep 14 22:12:42 EDT 2020" docOffset="48" starttimestamp="1600132875216" timestamp="3086906" />
+  <Command __id="4244" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3087791" timestamp2="3087791">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4246" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088089" timestamp2="3088089">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4248" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088212" timestamp2="3088212">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="4250" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088258" timestamp2="3088258">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="4252" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088362" timestamp2="3088362">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="4254" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088385" timestamp2="3088385">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="4256" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088521" timestamp2="3088521">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="4258" _type="InsertStringCommand" date="Mon Sep 14 22:12:43 EDT 2020" starttimestamp="1600132875216" timestamp="3088601" timestamp2="3088601">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="4259" _type="EclipseCommand" commandID="" date="Mon Sep 14 22:12:44 EDT 2020" starttimestamp="1600132875216" timestamp="3088987" />
+  <Command __id="4260" _type="EclipseCommand" commandID="" date="Mon Sep 14 22:12:44 EDT 2020" starttimestamp="1600132875216" timestamp="3088988" />
+  <Command __id="4262" _type="InsertStringCommand" date="Mon Sep 14 22:12:44 EDT 2020" starttimestamp="1600132875216" timestamp="3089338" timestamp2="3089338">
+    <data><![CDATA[F]]></data>
+  </Command>
+  <Command __id="4264" _type="InsertStringCommand" date="Mon Sep 14 22:12:44 EDT 2020" starttimestamp="1600132875216" timestamp="3089506" timestamp2="3089506">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4266" _type="InsertStringCommand" date="Mon Sep 14 22:12:44 EDT 2020" starttimestamp="1600132875216" timestamp="3089634" timestamp2="3089634">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4268" _type="InsertStringCommand" date="Mon Sep 14 22:12:44 EDT 2020" starttimestamp="1600132875216" timestamp="3089762" timestamp2="3089762">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4270" _type="InsertStringCommand" date="Mon Sep 14 22:12:45 EDT 2020" starttimestamp="1600132875216" timestamp="3089953" timestamp2="3089953">
+    <data><![CDATA[2]]></data>
+  </Command>
+  <Command __id="4272" _type="InsertStringCommand" date="Mon Sep 14 22:12:45 EDT 2020" starttimestamp="1600132875216" timestamp="3090041" timestamp2="3090041">
+    <data><![CDATA[0]]></data>
+  </Command>
+  <Command __id="4274" _type="InsertStringCommand" date="Mon Sep 14 22:12:45 EDT 2020" starttimestamp="1600132875216" timestamp="3090331" timestamp2="3090331">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4275" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:12:45 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3090333" />
+  <Command __id="4276" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:12:45 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3090349" />
+  <Command __id="4278" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3090857" />
+  <Command __id="4280" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3090961" />
+  <Command __id="4282" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3091121" />
+  <Command __id="4284" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3091257" />
+  <Command __id="4286" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3091402" />
+  <Command __id="4288" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3091538" />
+  <Command __id="4290" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:12:46 EDT 2020" starttimestamp="1600132875216" timestamp="3091659" />
+  <Command __id="4238" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:12:38 EDT 2020" docASTNodeCount="36" docActiveCodeLength="307" docExpressionCount="20" docLength="307" projectName="a1" starttimestamp="1600132875216" timestamp="3083109">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/TestPlayground.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package main;
+
+import util.SocialDistancingUtil;
+
+public class TestPlayground {
+	
+	public static void main(String[] args) {
+		SocialDistancingUtil.printSafeDistancesAndDurations(9);
+		SocialDistancingUtil.printSafeDistancesAndDurations(11);
+		SocialDistancingUtil.printSafeDistancesAndDurations(51);
+	}
+	
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="4243" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="308" docExpressionCount="20" docLength="308" length="1" offset="48" starttimestamp="1600132875216" timestamp="3087788">
+    <text><![CDATA[
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4245" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="309" docExpressionCount="20" docLength="309" length="1" offset="49" starttimestamp="1600132875216" timestamp="3088088">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4247" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="310" docExpressionCount="20" docLength="310" length="1" offset="50" starttimestamp="1600132875216" timestamp="3088211">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4249" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="311" docExpressionCount="20" docLength="311" length="1" offset="51" starttimestamp="1600132875216" timestamp="3088257">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4251" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="312" docExpressionCount="20" docLength="312" length="1" offset="52" starttimestamp="1600132875216" timestamp="3088361">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4253" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="313" docExpressionCount="20" docLength="313" length="1" offset="53" starttimestamp="1600132875216" timestamp="3088384">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4255" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="314" docExpressionCount="20" docLength="314" length="1" offset="54" starttimestamp="1600132875216" timestamp="3088519">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4257" _type="Insert" date="Mon Sep 14 22:12:43 EDT 2020" docASTNodeCount="36" docActiveCodeLength="315" docExpressionCount="20" docLength="315" length="1" offset="55" starttimestamp="1600132875216" timestamp="3088600">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4261" _type="Insert" date="Mon Sep 14 22:12:44 EDT 2020" docASTNodeCount="38" docActiveCodeLength="316" docExpressionCount="21" docLength="316" length="1" offset="56" starttimestamp="1600132875216" timestamp="3089337">
+    <text><![CDATA[F]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4263" _type="Insert" date="Mon Sep 14 22:12:44 EDT 2020" docASTNodeCount="38" docActiveCodeLength="317" docExpressionCount="21" docLength="317" length="1" offset="57" starttimestamp="1600132875216" timestamp="3089505">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4265" _type="Insert" date="Mon Sep 14 22:12:44 EDT 2020" docASTNodeCount="38" docActiveCodeLength="318" docExpressionCount="21" docLength="318" length="1" offset="58" starttimestamp="1600132875216" timestamp="3089633">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4267" _type="Insert" date="Mon Sep 14 22:12:44 EDT 2020" docASTNodeCount="38" docActiveCodeLength="319" docExpressionCount="21" docLength="319" length="1" offset="59" starttimestamp="1600132875216" timestamp="3089761">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4269" _type="Insert" date="Mon Sep 14 22:12:45 EDT 2020" docASTNodeCount="38" docActiveCodeLength="320" docExpressionCount="21" docLength="320" length="1" offset="60" starttimestamp="1600132875216" timestamp="3089952">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4271" _type="Insert" date="Mon Sep 14 22:12:45 EDT 2020" docASTNodeCount="38" docActiveCodeLength="321" docExpressionCount="21" docLength="321" length="1" offset="61" starttimestamp="1600132875216" timestamp="3090040">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4273" _type="Insert" date="Mon Sep 14 22:12:45 EDT 2020" docASTNodeCount="36" docActiveCodeLength="322" docExpressionCount="20" docLength="322" length="1" offset="62" starttimestamp="1600132875216" timestamp="3090330">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4277" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="38" docActiveCodeLength="321" docExpressionCount="21" docLength="321" endLine="3" length="1" offset="62" startLine="3" starttimestamp="1600132875216" timestamp="3090856">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4279" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="38" docActiveCodeLength="320" docExpressionCount="21" docLength="320" endLine="3" length="1" offset="61" startLine="3" starttimestamp="1600132875216" timestamp="3090960">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4281" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="38" docActiveCodeLength="319" docExpressionCount="21" docLength="319" endLine="3" length="1" offset="60" startLine="3" starttimestamp="1600132875216" timestamp="3091120">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4283" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="38" docActiveCodeLength="318" docExpressionCount="21" docLength="318" endLine="3" length="1" offset="59" startLine="3" starttimestamp="1600132875216" timestamp="3091256">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4285" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="38" docActiveCodeLength="317" docExpressionCount="21" docLength="317" endLine="3" length="1" offset="58" startLine="3" starttimestamp="1600132875216" timestamp="3091401">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4287" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="38" docActiveCodeLength="316" docExpressionCount="21" docLength="316" endLine="3" length="1" offset="57" startLine="3" starttimestamp="1600132875216" timestamp="3091538">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4289" _type="Delete" date="Mon Sep 14 22:12:46 EDT 2020" docASTNodeCount="36" docActiveCodeLength="315" docExpressionCount="20" docLength="315" endLine="3" length="1" offset="56" startLine="3" starttimestamp="1600132875216" timestamp="3091658">
+    <text><![CDATA[F]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4293" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="316" docExpressionCount="21" docLength="316" length="1" offset="56" starttimestamp="1600132875216" timestamp="3105008">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4295" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="317" docExpressionCount="21" docLength="317" length="1" offset="57" starttimestamp="1600132875216" timestamp="3105185">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4297" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="318" docExpressionCount="21" docLength="318" length="1" offset="58" starttimestamp="1600132875216" timestamp="3105250">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4299" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="319" docExpressionCount="21" docLength="319" length="1" offset="59" starttimestamp="1600132875216" timestamp="3105337">
+    <text><![CDATA[d]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4301" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="320" docExpressionCount="21" docLength="320" length="1" offset="60" starttimestamp="1600132875216" timestamp="3105466">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4303" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="321" docExpressionCount="21" docLength="321" length="1" offset="61" starttimestamp="1600132875216" timestamp="3105577">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4305" _type="Insert" date="Mon Sep 14 22:13:00 EDT 2020" docASTNodeCount="38" docActiveCodeLength="322" docExpressionCount="21" docLength="322" length="1" offset="62" starttimestamp="1600132875216" timestamp="3105619">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4307" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="38" docActiveCodeLength="323" docExpressionCount="21" docLength="323" length="1" offset="63" starttimestamp="1600132875216" timestamp="3105827">
+    <text><![CDATA[T]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4309" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="38" docActiveCodeLength="324" docExpressionCount="21" docLength="324" length="1" offset="64" starttimestamp="1600132875216" timestamp="3106088">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4311" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="38" docActiveCodeLength="325" docExpressionCount="21" docLength="325" length="1" offset="65" starttimestamp="1600132875216" timestamp="3106226">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4313" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="38" docActiveCodeLength="326" docExpressionCount="21" docLength="326" length="1" offset="66" starttimestamp="1600132875216" timestamp="3106384">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4315" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="38" docActiveCodeLength="327" docExpressionCount="21" docLength="327" length="1" offset="67" starttimestamp="1600132875216" timestamp="3106472">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4317" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="36" docActiveCodeLength="328" docExpressionCount="20" docLength="328" length="1" offset="68" starttimestamp="1600132875216" timestamp="3106560">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4320" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="40" docActiveCodeLength="329" docExpressionCount="23" docLength="329" length="1" offset="69" starttimestamp="1600132875216" timestamp="3106720">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4321" _type="Insert" date="Mon Sep 14 22:13:01 EDT 2020" docASTNodeCount="40" docActiveCodeLength="330" docExpressionCount="23" docLength="330" length="1" offset="70" starttimestamp="1600132875216" timestamp="3106761">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4322" _type="Insert" date="Mon Sep 14 22:13:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="331" docExpressionCount="23" docLength="331" length="1" offset="71" starttimestamp="1600132875216" timestamp="3106890">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4323" _type="Insert" date="Mon Sep 14 22:13:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="332" docExpressionCount="23" docLength="332" length="1" offset="72" starttimestamp="1600132875216" timestamp="3107000">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4324" _type="Insert" date="Mon Sep 14 22:13:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="333" docExpressionCount="23" docLength="333" length="1" offset="73" starttimestamp="1600132875216" timestamp="3107466">
+    <text><![CDATA[5]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4325" _type="Insert" date="Mon Sep 14 22:13:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="334" docExpressionCount="23" docLength="334" length="1" offset="74" starttimestamp="1600132875216" timestamp="3107667">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4326" _type="Insert" date="Mon Sep 14 22:13:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="335" docExpressionCount="23" docLength="335" length="1" offset="75" starttimestamp="1600132875216" timestamp="3107712">
+    <text><![CDATA[4]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4327" _type="Insert" date="Mon Sep 14 22:13:03 EDT 2020" docASTNodeCount="40" docActiveCodeLength="336" docExpressionCount="23" docLength="336" length="1" offset="76" starttimestamp="1600132875216" timestamp="3108520">
+    <text><![CDATA[f]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4328" _type="Insert" date="Mon Sep 14 22:13:03 EDT 2020" docASTNodeCount="40" docActiveCodeLength="337" docExpressionCount="23" docLength="337" length="1" offset="77" starttimestamp="1600132875216" timestamp="3108688">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4329" _type="Insert" date="Mon Sep 14 22:13:03 EDT 2020" docASTNodeCount="40" docActiveCodeLength="338" docExpressionCount="23" docLength="338" length="1" offset="78" starttimestamp="1600132875216" timestamp="3108776">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4330" _type="Insert" date="Mon Sep 14 22:13:04 EDT 2020" docASTNodeCount="36" docActiveCodeLength="339" docExpressionCount="20" docLength="339" length="1" offset="79" starttimestamp="1600132875216" timestamp="3109009">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4331" _type="Insert" date="Mon Sep 14 22:13:04 EDT 2020" docASTNodeCount="42" docActiveCodeLength="340" docExpressionCount="25" docLength="340" length="1" offset="80" starttimestamp="1600132875216" timestamp="3109209">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <Command __id="4291" _type="MoveCaretCommand" caretOffset="57" date="Mon Sep 14 22:12:59 EDT 2020" docOffset="57" starttimestamp="1600132875216" timestamp="3104264" />
+  <Command __id="4292" _type="MoveCaretCommand" caretOffset="56" date="Mon Sep 14 22:12:59 EDT 2020" docOffset="56" starttimestamp="1600132875216" timestamp="3104588" />
+  <Command __id="4294" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105009" timestamp2="3105009">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="4296" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105187" timestamp2="3105187">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="4298" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105251" timestamp2="3105251">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4300" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105338" timestamp2="3105338">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="4302" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105467" timestamp2="3105467">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4304" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105578" timestamp2="3105578">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="4306" _type="InsertStringCommand" date="Mon Sep 14 22:13:00 EDT 2020" starttimestamp="1600132875216" timestamp="3105619" timestamp2="3105619">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="4308" _type="InsertStringCommand" date="Mon Sep 14 22:13:01 EDT 2020" starttimestamp="1600132875216" timestamp="3105828" timestamp2="3105828">
+    <data><![CDATA[T]]></data>
+  </Command>
+  <Command __id="4310" _type="InsertStringCommand" date="Mon Sep 14 22:13:01 EDT 2020" starttimestamp="1600132875216" timestamp="3106089" timestamp2="3106089">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="4312" _type="InsertStringCommand" date="Mon Sep 14 22:13:01 EDT 2020" starttimestamp="1600132875216" timestamp="3106229" timestamp2="3106229">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="4314" _type="InsertStringCommand" date="Mon Sep 14 22:13:01 EDT 2020" starttimestamp="1600132875216" timestamp="3106385" timestamp2="3106385">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4316" _type="InsertStringCommand" date="Mon Sep 14 22:13:01 EDT 2020" starttimestamp="1600132875216" timestamp="3106473" timestamp2="3106473">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4318" _type="InsertStringCommand" date="Mon Sep 14 22:13:01 EDT 2020" starttimestamp="1600132875216" timestamp="3106561" timestamp2="3106561">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4319" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:13:01 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3106563" />
+  <DocumentChange __id="4332" _type="Insert" date="Mon Sep 14 22:13:04 EDT 2020" docASTNodeCount="42" docActiveCodeLength="341" docExpressionCount="25" docLength="341" length="1" offset="81" starttimestamp="1600132875216" timestamp="3109274">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <Command __id="4333" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:13:05 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3110555" />
+  <DocumentChange __id="4334" _type="Replace" date="Mon Sep 14 22:13:05 EDT 2020" docASTNodeCount="42" docActiveCodeLength="355" docExpressionCount="25" docLength="355" endLine="3" insertionLength="40" int_docASTNodeCount="36" int_docActiveCodeLength="315" int_docExpressionCount="20" int_docLength="315" length="26" offset="56" startLine="3" starttimestamp="1600132875216" timestamp="3110557">
+    <deletedText><![CDATA[gradingTools.comp524f20.as]]></deletedText>
+    <insertedText><![CDATA[gradingTools.comp524f20.assignment0_1.*;]]></insertedText>
+  </DocumentChange>
+  <Command __id="4335" _type="InsertStringCommand" date="Mon Sep 14 22:13:05 EDT 2020" starttimestamp="1600132875216" timestamp="3110561" timestamp2="3110561">
+    <data><![CDATA[]]></data>
+  </Command>
+  <DocumentChange __id="4336" _type="Insert" date="Mon Sep 14 22:13:06 EDT 2020" docASTNodeCount="42" docActiveCodeLength="356" docExpressionCount="25" docLength="356" length="1" offset="96" starttimestamp="1600132875216" timestamp="3110792">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <Command __id="4337" _type="InsertStringCommand" date="Mon Sep 14 22:13:06 EDT 2020" starttimestamp="1600132875216" timestamp="3110794" timestamp2="3110794">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4338" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:13:06 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3110796" />
+  <Command __id="4344" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:13:09 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3114727" />
+  <Command __id="4345" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.LINE_UP" date="Mon Sep 14 22:13:10 EDT 2020" starttimestamp="1600132875216" timestamp="3115457" />
+  <Command __id="4346" _type="MoveCaretCommand" caretOffset="94" date="Mon Sep 14 22:13:12 EDT 2020" docOffset="94" starttimestamp="1600132875216" timestamp="3117659" />
+  <Command __id="4348" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:13 EDT 2020" starttimestamp="1600132875216" timestamp="3118060" />
+  <Command __id="4350" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:13 EDT 2020" starttimestamp="1600132875216" timestamp="3118219" />
+  <Command __id="4352" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:13 EDT 2020" starttimestamp="1600132875216" timestamp="3118338" />
+  <Command __id="4354" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:13 EDT 2020" starttimestamp="1600132875216" timestamp="3118498" />
+  <Command __id="4356" _type="InsertStringCommand" date="Mon Sep 14 22:13:13 EDT 2020" starttimestamp="1600132875216" timestamp="3118730" timestamp2="3118730">
+    <data><![CDATA[1]]></data>
+  </Command>
+  <Command __id="4358" _type="InsertStringCommand" date="Mon Sep 14 22:13:14 EDT 2020" starttimestamp="1600132875216" timestamp="3119025" timestamp2="3119025">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4359" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:13:14 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3119027" />
+  <Command __id="4360" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:13:15 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3120021" />
+  <Command __id="4362" _type="InsertStringCommand" date="Mon Sep 14 22:13:15 EDT 2020" starttimestamp="1600132875216" timestamp="3120026" timestamp2="3120026">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4364" _type="InsertStringCommand" date="Mon Sep 14 22:13:15 EDT 2020" starttimestamp="1600132875216" timestamp="3120466" timestamp2="3120466">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="4366" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:16 EDT 2020" starttimestamp="1600132875216" timestamp="3120873" />
+  <Command __id="4367" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_NEXT" date="Mon Sep 14 22:13:17 EDT 2020" starttimestamp="1600132875216" timestamp="3122377" />
+  <DocumentChange __id="4339" _type="Delete" date="Mon Sep 14 22:13:07 EDT 2020" docASTNodeCount="42" docActiveCodeLength="355" docExpressionCount="25" docLength="355" endLine="3" length="1" offset="96" startLine="3" starttimestamp="1600132875216" timestamp="3112048">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4340" _type="Delete" date="Mon Sep 14 22:13:07 EDT 2020" docASTNodeCount="42" docActiveCodeLength="354" docExpressionCount="25" docLength="354" endLine="3" length="1" offset="95" startLine="3" starttimestamp="1600132875216" timestamp="3112192">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4341" _type="Delete" date="Mon Sep 14 22:13:07 EDT 2020" docASTNodeCount="36" docActiveCodeLength="353" docExpressionCount="20" docLength="353" endLine="3" length="1" offset="94" startLine="3" starttimestamp="1600132875216" timestamp="3112464">
+    <text><![CDATA[*]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4342" _type="Delete" date="Mon Sep 14 22:13:07 EDT 2020" docASTNodeCount="42" docActiveCodeLength="352" docExpressionCount="25" docLength="352" endLine="3" length="1" offset="93" startLine="3" starttimestamp="1600132875216" timestamp="3112680">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4343" _type="Insert" date="Mon Sep 14 22:13:08 EDT 2020" docASTNodeCount="36" docActiveCodeLength="353" docExpressionCount="20" docLength="353" length="1" offset="93" starttimestamp="1600132875216" timestamp="3112936">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4347" _type="Delete" date="Mon Sep 14 22:13:13 EDT 2020" docASTNodeCount="42" docActiveCodeLength="352" docExpressionCount="25" docLength="352" endLine="3" length="1" offset="93" startLine="3" starttimestamp="1600132875216" timestamp="3118059">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4349" _type="Delete" date="Mon Sep 14 22:13:13 EDT 2020" docASTNodeCount="42" docActiveCodeLength="351" docExpressionCount="25" docLength="351" endLine="3" length="1" offset="92" startLine="3" starttimestamp="1600132875216" timestamp="3118218">
+    <text><![CDATA[1]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4351" _type="Delete" date="Mon Sep 14 22:13:13 EDT 2020" docASTNodeCount="42" docActiveCodeLength="350" docExpressionCount="25" docLength="350" endLine="3" length="1" offset="91" startLine="3" starttimestamp="1600132875216" timestamp="3118337">
+    <text><![CDATA[_]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4353" _type="Delete" date="Mon Sep 14 22:13:13 EDT 2020" docASTNodeCount="42" docActiveCodeLength="349" docExpressionCount="25" docLength="349" endLine="3" length="1" offset="90" startLine="3" starttimestamp="1600132875216" timestamp="3118497">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4355" _type="Insert" date="Mon Sep 14 22:13:13 EDT 2020" docASTNodeCount="42" docActiveCodeLength="350" docExpressionCount="25" docLength="350" length="1" offset="90" starttimestamp="1600132875216" timestamp="3118729">
+    <text><![CDATA[1]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4357" _type="Insert" date="Mon Sep 14 22:13:14 EDT 2020" docASTNodeCount="36" docActiveCodeLength="351" docExpressionCount="20" docLength="351" length="1" offset="91" starttimestamp="1600132875216" timestamp="3119025">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4361" _type="Insert" date="Mon Sep 14 22:13:15 EDT 2020" docASTNodeCount="44" docActiveCodeLength="371" docExpressionCount="27" docLength="371" length="20" offset="92" starttimestamp="1600132875216" timestamp="3120023">
+    <text><![CDATA[F20Assignment1Suite;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4363" _type="Insert" date="Mon Sep 14 22:13:15 EDT 2020" docASTNodeCount="44" docActiveCodeLength="372" docExpressionCount="27" docLength="372" length="1" offset="112" starttimestamp="1600132875216" timestamp="3120465">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4365" _type="Delete" date="Mon Sep 14 22:13:16 EDT 2020" docASTNodeCount="44" docActiveCodeLength="371" docExpressionCount="27" docLength="371" endLine="3" length="1" offset="112" startLine="3" starttimestamp="1600132875216" timestamp="3120872">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <Command __id="4368" _type="MoveCaretCommand" caretOffset="112" date="Mon Sep 14 22:13:23 EDT 2020" docOffset="112" starttimestamp="1600132875216" timestamp="3128101" />
+  <DocumentChange __id="4369" _type="Delete" date="Mon Sep 14 22:13:26 EDT 2020" docASTNodeCount="44" docActiveCodeLength="370" docExpressionCount="27" docLength="370" endLine="3" length="1" offset="111" startLine="3" starttimestamp="1600132875216" timestamp="3131264">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <Command __id="4370" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:26 EDT 2020" starttimestamp="1600132875216" timestamp="3131265" />
+  <DocumentChange __id="4371" _type="Insert" date="Mon Sep 14 22:13:26 EDT 2020" docASTNodeCount="36" docActiveCodeLength="371" docExpressionCount="20" docLength="371" length="1" offset="111" starttimestamp="1600132875216" timestamp="3131672">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <Command __id="4372" _type="InsertStringCommand" date="Mon Sep 14 22:13:26 EDT 2020" starttimestamp="1600132875216" timestamp="3131674" timestamp2="3131674">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4373" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:13:26 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3131678" />
+  <Command __id="4374" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:13:26 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3131714" />
+  <DocumentChange __id="4375" _type="Delete" date="Mon Sep 14 22:13:27 EDT 2020" docASTNodeCount="44" docActiveCodeLength="370" docExpressionCount="27" docLength="370" endLine="3" length="1" offset="111" startLine="3" starttimestamp="1600132875216" timestamp="3132289">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <Command __id="4376" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:27 EDT 2020" starttimestamp="1600132875216" timestamp="3132290" />
+  <DocumentChange __id="4377" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="369" docExpressionCount="27" docLength="369" endLine="3" length="1" offset="110" startLine="3" starttimestamp="1600132875216" timestamp="3132789">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <Command __id="4378" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132790" />
+  <DocumentChange __id="4379" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="368" docExpressionCount="27" docLength="368" endLine="3" length="1" offset="109" startLine="3" starttimestamp="1600132875216" timestamp="3132819">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <Command __id="4380" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132820" />
+  <DocumentChange __id="4381" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="367" docExpressionCount="27" docLength="367" endLine="3" length="1" offset="108" startLine="3" starttimestamp="1600132875216" timestamp="3132850">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <Command __id="4382" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132851" />
+  <DocumentChange __id="4383" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="366" docExpressionCount="27" docLength="366" endLine="3" length="1" offset="107" startLine="3" starttimestamp="1600132875216" timestamp="3132879">
+    <text><![CDATA[u]]></text>
+  </DocumentChange>
+  <Command __id="4384" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132880" />
+  <DocumentChange __id="4385" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="365" docExpressionCount="27" docLength="365" endLine="3" length="1" offset="106" startLine="3" starttimestamp="1600132875216" timestamp="3132910">
+    <text><![CDATA[S]]></text>
+  </DocumentChange>
+  <Command __id="4386" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132912" />
+  <DocumentChange __id="4387" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="364" docExpressionCount="27" docLength="364" endLine="3" length="1" offset="105" startLine="3" starttimestamp="1600132875216" timestamp="3132943">
+    <text><![CDATA[1]]></text>
+  </DocumentChange>
+  <Command __id="4388" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132944" />
+  <DocumentChange __id="4389" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="363" docExpressionCount="27" docLength="363" endLine="3" length="1" offset="104" startLine="3" starttimestamp="1600132875216" timestamp="3132971">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <Command __id="4390" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3132972" />
+  <DocumentChange __id="4391" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="362" docExpressionCount="27" docLength="362" endLine="3" length="1" offset="103" startLine="3" starttimestamp="1600132875216" timestamp="3133000">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <Command __id="4392" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133002" />
+  <DocumentChange __id="4393" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="361" docExpressionCount="27" docLength="361" endLine="3" length="1" offset="102" startLine="3" starttimestamp="1600132875216" timestamp="3133031">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <Command __id="4394" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133032" />
+  <DocumentChange __id="4395" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="360" docExpressionCount="27" docLength="360" endLine="3" length="1" offset="101" startLine="3" starttimestamp="1600132875216" timestamp="3133062">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <Command __id="4396" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133062" />
+  <DocumentChange __id="4397" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="359" docExpressionCount="27" docLength="359" endLine="3" length="1" offset="100" startLine="3" starttimestamp="1600132875216" timestamp="3133092">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <Command __id="4398" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133093" />
+  <DocumentChange __id="4399" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="358" docExpressionCount="27" docLength="358" endLine="3" length="1" offset="99" startLine="3" starttimestamp="1600132875216" timestamp="3133122">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <Command __id="4400" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133123" />
+  <DocumentChange __id="4401" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="357" docExpressionCount="27" docLength="357" endLine="3" length="1" offset="98" startLine="3" starttimestamp="1600132875216" timestamp="3133153">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <Command __id="4402" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133153" />
+  <DocumentChange __id="4403" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="356" docExpressionCount="27" docLength="356" endLine="3" length="1" offset="97" startLine="3" starttimestamp="1600132875216" timestamp="3133182">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <Command __id="4404" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133183" />
+  <DocumentChange __id="4405" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="355" docExpressionCount="27" docLength="355" endLine="3" length="1" offset="96" startLine="3" starttimestamp="1600132875216" timestamp="3133213">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <Command __id="4406" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133214" />
+  <DocumentChange __id="4407" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="354" docExpressionCount="27" docLength="354" endLine="3" length="1" offset="95" startLine="3" starttimestamp="1600132875216" timestamp="3133244">
+    <text><![CDATA[A]]></text>
+  </DocumentChange>
+  <Command __id="4408" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133245" />
+  <DocumentChange __id="4409" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="353" docExpressionCount="27" docLength="353" endLine="3" length="1" offset="94" startLine="3" starttimestamp="1600132875216" timestamp="3133276">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <Command __id="4410" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133277" />
+  <DocumentChange __id="4411" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="44" docActiveCodeLength="352" docExpressionCount="27" docLength="352" endLine="3" length="1" offset="93" startLine="3" starttimestamp="1600132875216" timestamp="3133304">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <Command __id="4412" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133305" />
+  <DocumentChange __id="4413" _type="Delete" date="Mon Sep 14 22:13:28 EDT 2020" docASTNodeCount="36" docActiveCodeLength="351" docExpressionCount="20" docLength="351" endLine="3" length="1" offset="92" startLine="3" starttimestamp="1600132875216" timestamp="3133553">
+    <text><![CDATA[F]]></text>
+  </DocumentChange>
+  <Command __id="4414" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:28 EDT 2020" starttimestamp="1600132875216" timestamp="3133554" />
+  <DocumentChange __id="4415" _type="Delete" date="Mon Sep 14 22:13:29 EDT 2020" docASTNodeCount="42" docActiveCodeLength="350" docExpressionCount="25" docLength="350" endLine="3" length="1" offset="91" startLine="3" starttimestamp="1600132875216" timestamp="3134112">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <Command __id="4416" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:29 EDT 2020" starttimestamp="1600132875216" timestamp="3134113" />
+  <Command __id="4418" _type="InsertStringCommand" date="Mon Sep 14 22:13:29 EDT 2020" starttimestamp="1600132875216" timestamp="3134346" timestamp2="3134346">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4419" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:13:29 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3134350" />
+  <DocumentChange __id="4417" _type="Insert" date="Mon Sep 14 22:13:29 EDT 2020" docASTNodeCount="36" docActiveCodeLength="351" docExpressionCount="20" docLength="351" length="1" offset="91" starttimestamp="1600132875216" timestamp="3134345">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4421" _type="Replace" date="Mon Sep 14 22:13:34 EDT 2020" docASTNodeCount="44" docActiveCodeLength="368" docExpressionCount="27" docLength="368" endLine="3" insertionLength="53" int_docASTNodeCount="36" int_docActiveCodeLength="315" int_docExpressionCount="20" int_docLength="315" length="36" offset="56" startLine="3" starttimestamp="1600132875216" timestamp="3139197">
+    <deletedText><![CDATA[gradingTools.comp524f20.assignment1.]]></deletedText>
+    <insertedText><![CDATA[gradingTools.comp524f20.assignment1.socialDistance.*;]]></insertedText>
+  </DocumentChange>
+  <Command __id="4420" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:13:34 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3139195" />
+  <Command __id="4422" _type="InsertStringCommand" date="Mon Sep 14 22:13:34 EDT 2020" starttimestamp="1600132875216" timestamp="3139200" timestamp2="3139200">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4424" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:35 EDT 2020" starttimestamp="1600132875216" timestamp="3140532" />
+  <Command __id="4426" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:35 EDT 2020" starttimestamp="1600132875216" timestamp="3140713" />
+  <Command __id="4428" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:36 EDT 2020" starttimestamp="1600132875216" timestamp="3140873" />
+  <Command __id="4430" _type="InsertStringCommand" date="Mon Sep 14 22:13:36 EDT 2020" starttimestamp="1600132875216" timestamp="3141186" timestamp2="3141186">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4431" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:13:36 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3141188" />
+  <DocumentChange __id="4423" _type="Delete" date="Mon Sep 14 22:13:35 EDT 2020" docASTNodeCount="44" docActiveCodeLength="367" docExpressionCount="27" docLength="367" endLine="3" length="1" offset="108" startLine="3" starttimestamp="1600132875216" timestamp="3140530">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4425" _type="Delete" date="Mon Sep 14 22:13:35 EDT 2020" docASTNodeCount="36" docActiveCodeLength="366" docExpressionCount="20" docLength="366" endLine="3" length="1" offset="107" startLine="3" starttimestamp="1600132875216" timestamp="3140712">
+    <text><![CDATA[*]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4427" _type="Delete" date="Mon Sep 14 22:13:36 EDT 2020" docASTNodeCount="44" docActiveCodeLength="365" docExpressionCount="27" docLength="365" endLine="3" length="1" offset="106" startLine="3" starttimestamp="1600132875216" timestamp="3140872">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4429" _type="Insert" date="Mon Sep 14 22:13:36 EDT 2020" docASTNodeCount="36" docActiveCodeLength="366" docExpressionCount="20" docLength="366" length="1" offset="106" starttimestamp="1600132875216" timestamp="3141185">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4433" _type="Replace" date="Mon Sep 14 22:13:37 EDT 2020" docASTNodeCount="46" docActiveCodeLength="378" docExpressionCount="29" docLength="378" endLine="3" insertionLength="63" int_docASTNodeCount="36" int_docActiveCodeLength="315" int_docExpressionCount="20" int_docLength="315" length="51" offset="56" startLine="3" starttimestamp="1600132875216" timestamp="3142317">
+    <deletedText><![CDATA[gradingTools.comp524f20.assignment1.socialDistance.]]></deletedText>
+    <insertedText><![CDATA[gradingTools.comp524f20.assignment1.socialDistance.factories.*;]]></insertedText>
+  </DocumentChange>
+  <Command __id="4432" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:13:37 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3142316" />
+  <Command __id="4434" _type="InsertStringCommand" date="Mon Sep 14 22:13:37 EDT 2020" starttimestamp="1600132875216" timestamp="3142321" timestamp2="3142321">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4436" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:38 EDT 2020" starttimestamp="1600132875216" timestamp="3143386" />
+  <Command __id="4438" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3143886" />
+  <Command __id="4440" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3143915" />
+  <Command __id="4442" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3143945" />
+  <Command __id="4444" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3143975" />
+  <Command __id="4446" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144005" />
+  <Command __id="4448" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144036" />
+  <Command __id="4450" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144067" />
+  <Command __id="4452" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144098" />
+  <Command __id="4454" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144128" />
+  <Command __id="4456" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144157" />
+  <Command __id="4458" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144189" />
+  <Command __id="4460" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144218" />
+  <Command __id="4462" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144249" />
+  <Command __id="4464" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144279" />
+  <Command __id="4466" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144309" />
+  <Command __id="4468" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144340" />
+  <Command __id="4470" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144371" />
+  <Command __id="4472" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144401" />
+  <Command __id="4474" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144431" />
+  <Command __id="4476" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144462" />
+  <Command __id="4478" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144493" />
+  <DocumentChange __id="4435" _type="Delete" date="Mon Sep 14 22:13:38 EDT 2020" docASTNodeCount="46" docActiveCodeLength="377" docExpressionCount="29" docLength="377" endLine="3" length="1" offset="118" startLine="3" starttimestamp="1600132875216" timestamp="3143384">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4437" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="36" docActiveCodeLength="376" docExpressionCount="20" docLength="376" endLine="3" length="1" offset="117" startLine="3" starttimestamp="1600132875216" timestamp="3143885">
+    <text><![CDATA[*]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4439" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="375" docExpressionCount="29" docLength="375" endLine="3" length="1" offset="116" startLine="3" starttimestamp="1600132875216" timestamp="3143914">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4441" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="374" docExpressionCount="29" docLength="374" endLine="3" length="1" offset="115" startLine="3" starttimestamp="1600132875216" timestamp="3143944">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4443" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="373" docExpressionCount="29" docLength="373" endLine="3" length="1" offset="114" startLine="3" starttimestamp="1600132875216" timestamp="3143974">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4445" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="372" docExpressionCount="29" docLength="372" endLine="3" length="1" offset="113" startLine="3" starttimestamp="1600132875216" timestamp="3144004">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4447" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="371" docExpressionCount="29" docLength="371" endLine="3" length="1" offset="112" startLine="3" starttimestamp="1600132875216" timestamp="3144035">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4449" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="370" docExpressionCount="29" docLength="370" endLine="3" length="1" offset="111" startLine="3" starttimestamp="1600132875216" timestamp="3144066">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4451" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="369" docExpressionCount="29" docLength="369" endLine="3" length="1" offset="110" startLine="3" starttimestamp="1600132875216" timestamp="3144096">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4453" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="368" docExpressionCount="29" docLength="368" endLine="3" length="1" offset="109" startLine="3" starttimestamp="1600132875216" timestamp="3144126">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4455" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="46" docActiveCodeLength="367" docExpressionCount="29" docLength="367" endLine="3" length="1" offset="108" startLine="3" starttimestamp="1600132875216" timestamp="3144156">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4457" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="36" docActiveCodeLength="366" docExpressionCount="20" docLength="366" endLine="3" length="1" offset="107" startLine="3" starttimestamp="1600132875216" timestamp="3144187">
+    <text><![CDATA[f]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4459" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="365" docExpressionCount="27" docLength="365" endLine="3" length="1" offset="106" startLine="3" starttimestamp="1600132875216" timestamp="3144217">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4461" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="364" docExpressionCount="27" docLength="364" endLine="3" length="1" offset="105" startLine="3" starttimestamp="1600132875216" timestamp="3144248">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4463" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="363" docExpressionCount="27" docLength="363" endLine="3" length="1" offset="104" startLine="3" starttimestamp="1600132875216" timestamp="3144278">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4465" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="362" docExpressionCount="27" docLength="362" endLine="3" length="1" offset="103" startLine="3" starttimestamp="1600132875216" timestamp="3144308">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4467" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="361" docExpressionCount="27" docLength="361" endLine="3" length="1" offset="102" startLine="3" starttimestamp="1600132875216" timestamp="3144339">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4469" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="360" docExpressionCount="27" docLength="360" endLine="3" length="1" offset="101" startLine="3" starttimestamp="1600132875216" timestamp="3144370">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4471" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="359" docExpressionCount="27" docLength="359" endLine="3" length="1" offset="100" startLine="3" starttimestamp="1600132875216" timestamp="3144400">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4473" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="358" docExpressionCount="27" docLength="358" endLine="3" length="1" offset="99" startLine="3" starttimestamp="1600132875216" timestamp="3144430">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4475" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="357" docExpressionCount="27" docLength="357" endLine="3" length="1" offset="98" startLine="3" starttimestamp="1600132875216" timestamp="3144461">
+    <text><![CDATA[D]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4477" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="356" docExpressionCount="27" docLength="356" endLine="3" length="1" offset="97" startLine="3" starttimestamp="1600132875216" timestamp="3144491">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4479" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="355" docExpressionCount="27" docLength="355" endLine="3" length="1" offset="96" startLine="3" starttimestamp="1600132875216" timestamp="3144520">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4481" _type="Delete" date="Mon Sep 14 22:13:39 EDT 2020" docASTNodeCount="44" docActiveCodeLength="354" docExpressionCount="27" docLength="354" endLine="3" length="1" offset="95" startLine="3" starttimestamp="1600132875216" timestamp="3144550">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <Command __id="4491" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:13:51 EDT 2020" projectName="null" starttimestamp="1600132875216" timestamp="3156389">
+    <filePath><![CDATA[null]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="4493" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:13:52 EDT 2020" docASTNodeCount="40" docActiveCodeLength="271" docExpressionCount="22" docLength="271" projectName="a1" starttimestamp="1600132875216" timestamp="3157778">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/DerivingMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import factories.ModelFactory;¶import model.DerivedModel;¶import util.MVCUtil;¶¶public class DerivingMain {¶¶	public static void main(String[] args) {¶		ModelFactory.setSocialDistancingModel(new DerivedModel());¶		MVCUtil.startSocialDistancingMVC();¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="4495" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:13:54 EDT 2020" docASTNodeCount="40" docActiveCodeLength="264" docExpressionCount="22" docLength="264" projectName="a1" starttimestamp="1600132875216" timestamp="3159313">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/BasicMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import factories.ModelFactory;¶import model.BasicModel;¶import util.MVCUtil;¶¶public class BasicMain {¶¶	public static void main(String[] args) {¶		ModelFactory.setSocialDistancingModel(new BasicModel());¶		MVCUtil.startSocialDistancingMVC();¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="4497" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:13:55 EDT 2020" docASTNodeCount="40" docActiveCodeLength="289" docExpressionCount="22" docLength="289" projectName="a1" starttimestamp="1600132875216" timestamp="3159886">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/InterpolatingMain.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import factories.ModelFactory;¶import model.InterpolatingModel;¶import util.MVCUtil;¶¶public class InterpolatingMain {¶	¶	public static void main(String[] args) {¶		ModelFactory.setSocialDistancingModel(new InterpolatingModel());¶		MVCUtil.startSocialDistancingMVC();¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="4499" _type="DiffBasedFileOpenCommand" date="Mon Sep 14 22:13:55 EDT 2020" docASTNodeCount="42" docActiveCodeLength="350" docExpressionCount="25" docLength="350" projectName="a1" starttimestamp="1600132875216" timestamp="3160558">
+    <filePath><![CDATA[/home/mitchell/School/524/a1/src/main/TestPlayground.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package main;¶¶import util.SocialDistancingUtil;"), Diff(INSERT,"¶import gradingTools.comp524f20.assignment1"), Diff(EQUAL,"¶¶public class TestPlayground {¶	¶	public static void main(String[] args) {¶		SocialDistancingUtil.printSafeDistancesAndDurations(9);¶		SocialDistancingUtil.printSafeDistancesAndDurations(11);¶		SocialDistancingUtil.printSafeDistancesAndDurations(51);¶	}¶	¶}¶")]]]></diff>
+    <snapshot><![CDATA[package main;
+
+import util.SocialDistancingUtil;
+import gradingTools.comp524f20.assignment1
+
+public class TestPlayground {
+	
+	public static void main(String[] args) {
+		SocialDistancingUtil.printSafeDistancesAndDurations(9);
+		SocialDistancingUtil.printSafeDistancesAndDurations(11);
+		SocialDistancingUtil.printSafeDistancesAndDurations(51);
+	}
+	
+}
+]]></snapshot>
+  </Command>
+  <Command __id="4480" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144521" />
+  <Command __id="4482" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144551" />
+  <Command __id="4484" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144583" />
+  <Command __id="4486" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144611" />
+  <Command __id="4488" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144642" />
+  <Command __id="4490" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:39 EDT 2020" starttimestamp="1600132875216" timestamp="3144672" />
+  <Command __id="4492" _type="MoveCaretCommand" caretOffset="0" date="Mon Sep 14 22:13:51 EDT 2020" docOffset="0" starttimestamp="1600132875216" timestamp="3156514" />
+  <Command __id="4494" _type="SelectTextCommand" caretOffset="120" date="Mon Sep 14 22:13:53 EDT 2020" end="120" start="108" starttimestamp="1600132875216" timestamp="3157825" />
+  <Command __id="4496" _type="MoveCaretCommand" caretOffset="220" date="Mon Sep 14 22:13:54 EDT 2020" docOffset="220" starttimestamp="1600132875216" timestamp="3159356" />
+  <Command __id="4498" _type="MoveCaretCommand" caretOffset="131" date="Mon Sep 14 22:13:55 EDT 2020" docOffset="131" starttimestamp="1600132875216" timestamp="3159923" />
+  <Command __id="4500" _type="MoveCaretCommand" caretOffset="91" date="Mon Sep 14 22:13:55 EDT 2020" docOffset="91" starttimestamp="1600132875216" timestamp="3160589" />
+  <Command __id="4502" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:58 EDT 2020" starttimestamp="1600132875216" timestamp="3162786" />
+  <Command __id="4504" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:58 EDT 2020" starttimestamp="1600132875216" timestamp="3163547" />
+  <Command __id="4506" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164047" />
+  <Command __id="4508" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164077" />
+  <Command __id="4510" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164108" />
+  <Command __id="4512" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164138" />
+  <Command __id="4514" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164169" />
+  <Command __id="4516" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164199" />
+  <Command __id="4518" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164229" />
+  <Command __id="4520" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164259" />
+  <Command __id="4522" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:13:59 EDT 2020" starttimestamp="1600132875216" timestamp="3164289" />
+  <Command __id="4524" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:00 EDT 2020" starttimestamp="1600132875216" timestamp="3164852" />
+  <Command __id="4526" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:00 EDT 2020" starttimestamp="1600132875216" timestamp="3165242" />
+  <DocumentChange __id="4501" _type="Delete" date="Mon Sep 14 22:13:58 EDT 2020" docASTNodeCount="42" docActiveCodeLength="349" docExpressionCount="25" docLength="349" endLine="3" length="1" offset="90" startLine="3" starttimestamp="1600132875216" timestamp="3162785">
+    <text><![CDATA[1]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4503" _type="Delete" date="Mon Sep 14 22:13:58 EDT 2020" docASTNodeCount="42" docActiveCodeLength="348" docExpressionCount="25" docLength="348" endLine="3" length="1" offset="89" startLine="3" starttimestamp="1600132875216" timestamp="3163546">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4505" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="347" docExpressionCount="25" docLength="347" endLine="3" length="1" offset="88" startLine="3" starttimestamp="1600132875216" timestamp="3164046">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4507" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="346" docExpressionCount="25" docLength="346" endLine="3" length="1" offset="87" startLine="3" starttimestamp="1600132875216" timestamp="3164076">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4509" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="345" docExpressionCount="25" docLength="345" endLine="3" length="1" offset="86" startLine="3" starttimestamp="1600132875216" timestamp="3164107">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4511" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="344" docExpressionCount="25" docLength="344" endLine="3" length="1" offset="85" startLine="3" starttimestamp="1600132875216" timestamp="3164137">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4513" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="343" docExpressionCount="25" docLength="343" endLine="3" length="1" offset="84" startLine="3" starttimestamp="1600132875216" timestamp="3164168">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4515" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="342" docExpressionCount="25" docLength="342" endLine="3" length="1" offset="83" startLine="3" starttimestamp="1600132875216" timestamp="3164198">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4517" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="341" docExpressionCount="25" docLength="341" endLine="3" length="1" offset="82" startLine="3" starttimestamp="1600132875216" timestamp="3164228">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4519" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="42" docActiveCodeLength="340" docExpressionCount="25" docLength="340" endLine="3" length="1" offset="81" startLine="3" starttimestamp="1600132875216" timestamp="3164258">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4521" _type="Delete" date="Mon Sep 14 22:13:59 EDT 2020" docASTNodeCount="36" docActiveCodeLength="339" docExpressionCount="20" docLength="339" endLine="3" length="1" offset="80" startLine="3" starttimestamp="1600132875216" timestamp="3164288">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4523" _type="Delete" date="Mon Sep 14 22:14:00 EDT 2020" docASTNodeCount="40" docActiveCodeLength="338" docExpressionCount="23" docLength="338" endLine="3" length="1" offset="79" startLine="3" starttimestamp="1600132875216" timestamp="3164851">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4525" _type="Delete" date="Mon Sep 14 22:14:00 EDT 2020" docASTNodeCount="40" docActiveCodeLength="337" docExpressionCount="23" docLength="337" endLine="3" length="1" offset="78" startLine="3" starttimestamp="1600132875216" timestamp="3165241">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4527" _type="Delete" date="Mon Sep 14 22:14:01 EDT 2020" docASTNodeCount="40" docActiveCodeLength="336" docExpressionCount="23" docLength="336" endLine="3" length="1" offset="77" startLine="3" starttimestamp="1600132875216" timestamp="3165825">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <Command __id="4528" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:01 EDT 2020" starttimestamp="1600132875216" timestamp="3165826" />
+  <DocumentChange __id="4529" _type="Insert" date="Mon Sep 14 22:14:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="337" docExpressionCount="23" docLength="337" length="1" offset="77" starttimestamp="1600132875216" timestamp="3167537">
+    <text><![CDATA[2]]></text>
+  </DocumentChange>
+  <Command __id="4530" _type="InsertStringCommand" date="Mon Sep 14 22:14:02 EDT 2020" starttimestamp="1600132875216" timestamp="3167538" timestamp2="3167538">
+    <data><![CDATA[2]]></data>
+  </Command>
+  <DocumentChange __id="4531" _type="Insert" date="Mon Sep 14 22:14:02 EDT 2020" docASTNodeCount="40" docActiveCodeLength="338" docExpressionCount="23" docLength="338" length="1" offset="78" starttimestamp="1600132875216" timestamp="3167641">
+    <text><![CDATA[0]]></text>
+  </DocumentChange>
+  <Command __id="4532" _type="InsertStringCommand" date="Mon Sep 14 22:14:02 EDT 2020" starttimestamp="1600132875216" timestamp="3167643" timestamp2="3167643">
+    <data><![CDATA[0]]></data>
+  </Command>
+  <DocumentChange __id="4533" _type="Insert" date="Mon Sep 14 22:14:03 EDT 2020" docASTNodeCount="36" docActiveCodeLength="339" docExpressionCount="20" docLength="339" length="1" offset="79" starttimestamp="1600132875216" timestamp="3168057">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <Command __id="4534" _type="InsertStringCommand" date="Mon Sep 14 22:14:03 EDT 2020" starttimestamp="1600132875216" timestamp="3168058" timestamp2="3168058">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4535" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:14:03 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3168059" />
+  <DocumentChange __id="4536" _type="Insert" date="Mon Sep 14 22:14:03 EDT 2020" docASTNodeCount="42" docActiveCodeLength="340" docExpressionCount="25" docLength="340" length="1" offset="80" starttimestamp="1600132875216" timestamp="3168410">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4537" _type="Insert" date="Mon Sep 14 22:14:03 EDT 2020" docASTNodeCount="42" docActiveCodeLength="341" docExpressionCount="25" docLength="341" length="1" offset="81" starttimestamp="1600132875216" timestamp="3168415">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <Command __id="4538" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:14:04 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3169414" />
+  <DocumentChange __id="4539" _type="Replace" date="Mon Sep 14 22:14:04 EDT 2020" docASTNodeCount="42" docActiveCodeLength="355" docExpressionCount="25" docLength="355" endLine="3" insertionLength="40" int_docASTNodeCount="36" int_docActiveCodeLength="315" int_docExpressionCount="20" int_docLength="315" length="26" offset="56" startLine="3" starttimestamp="1600132875216" timestamp="3169416">
+    <deletedText><![CDATA[gradingTools.comp524f20.as]]></deletedText>
+    <insertedText><![CDATA[gradingTools.comp524f20.assignment0_1.*;]]></insertedText>
+  </DocumentChange>
+  <Command __id="4540" _type="InsertStringCommand" date="Mon Sep 14 22:14:04 EDT 2020" starttimestamp="1600132875216" timestamp="3169419" timestamp2="3169419">
+    <data><![CDATA[]]></data>
+  </Command>
+  <DocumentChange __id="4541" _type="Delete" date="Mon Sep 14 22:14:05 EDT 2020" docASTNodeCount="42" docActiveCodeLength="354" docExpressionCount="25" docLength="354" endLine="3" length="1" offset="95" startLine="3" starttimestamp="1600132875216" timestamp="3170296">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <Command __id="4542" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:05 EDT 2020" starttimestamp="1600132875216" timestamp="3170297" />
+  <DocumentChange __id="4543" _type="Delete" date="Mon Sep 14 22:14:05 EDT 2020" docASTNodeCount="36" docActiveCodeLength="353" docExpressionCount="20" docLength="353" endLine="3" length="1" offset="94" startLine="3" starttimestamp="1600132875216" timestamp="3170432">
+    <text><![CDATA[*]]></text>
+  </DocumentChange>
+  <Command __id="4544" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:05 EDT 2020" starttimestamp="1600132875216" timestamp="3170433" />
+  <DocumentChange __id="4545" _type="Delete" date="Mon Sep 14 22:14:05 EDT 2020" docASTNodeCount="42" docActiveCodeLength="352" docExpressionCount="25" docLength="352" endLine="3" length="1" offset="93" startLine="3" starttimestamp="1600132875216" timestamp="3170592">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <Command __id="4546" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:05 EDT 2020" starttimestamp="1600132875216" timestamp="3170593" />
+  <Command __id="4548" _type="InsertStringCommand" date="Mon Sep 14 22:14:06 EDT 2020" starttimestamp="1600132875216" timestamp="3170867" timestamp2="3170867">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4549" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:14:06 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3170869" />
+  <Command __id="4550" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:14:12 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3177390" />
+  <Command __id="4552" _type="InsertStringCommand" date="Mon Sep 14 22:14:12 EDT 2020" starttimestamp="1600132875216" timestamp="3177394" timestamp2="3177394">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4553" _type="ShellCommand" date="Mon Sep 14 22:14:22 EDT 2020" starttimestamp="1600132875216" timestamp="3187308" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4554" _type="ShellCommand" date="Mon Sep 14 22:14:54 EDT 2020" starttimestamp="1600132875216" timestamp="3219320" type="ECLIPSE_GAINED_FOCUS" />
+  <DocumentChange __id="4547" _type="Insert" date="Mon Sep 14 22:14:06 EDT 2020" docASTNodeCount="36" docActiveCodeLength="353" docExpressionCount="20" docLength="353" length="1" offset="93" starttimestamp="1600132875216" timestamp="3170866">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4551" _type="Insert" date="Mon Sep 14 22:14:12 EDT 2020" docASTNodeCount="44" docActiveCodeLength="375" docExpressionCount="27" docLength="375" length="22" offset="94" starttimestamp="1600132875216" timestamp="3177392">
+    <text><![CDATA[F20Assignment0_1Suite;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4556" _type="Delete" date="Mon Sep 14 22:14:59 EDT 2020" docASTNodeCount="31" docActiveCodeLength="223" docExpressionCount="16" docLength="223" endLine="10" length="152" offset="215" startLine="8" starttimestamp="1600132875216" timestamp="3223841">
+    <text><![CDATA[printSafeDistancesAndDurations(9);
+		SocialDistancingUtil.printSafeDistancesAndDurations(11);
+		SocialDistancingUtil.printSafeDistancesAndDurations(51);]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4558" _type="Delete" date="Mon Sep 14 22:14:59 EDT 2020" docASTNodeCount="31" docActiveCodeLength="222" docExpressionCount="16" docLength="222" endLine="8" length="1" offset="214" startLine="8" starttimestamp="1600132875216" timestamp="3224001">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4560" _type="Insert" date="Mon Sep 14 22:14:59 EDT 2020" docASTNodeCount="31" docActiveCodeLength="223" docExpressionCount="16" docLength="223" length="1" offset="214" starttimestamp="1600132875216" timestamp="3224289">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4563" _type="Insert" date="Mon Sep 14 22:14:59 EDT 2020" docASTNodeCount="33" docActiveCodeLength="224" docExpressionCount="18" docLength="224" length="1" offset="215" starttimestamp="1600132875216" timestamp="3224553">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4564" _type="Insert" date="Mon Sep 14 22:14:59 EDT 2020" docASTNodeCount="33" docActiveCodeLength="225" docExpressionCount="18" docLength="225" length="1" offset="216" starttimestamp="1600132875216" timestamp="3224657">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4565" _type="Insert" date="Mon Sep 14 22:14:59 EDT 2020" docASTNodeCount="33" docActiveCodeLength="226" docExpressionCount="18" docLength="226" length="1" offset="217" starttimestamp="1600132875216" timestamp="3224737">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4566" _type="Insert" date="Mon Sep 14 22:15:00 EDT 2020" docASTNodeCount="33" docActiveCodeLength="227" docExpressionCount="18" docLength="227" length="1" offset="218" starttimestamp="1600132875216" timestamp="3224802">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4567" _type="Insert" date="Mon Sep 14 22:15:00 EDT 2020" docASTNodeCount="33" docActiveCodeLength="228" docExpressionCount="18" docLength="228" length="1" offset="219" starttimestamp="1600132875216" timestamp="3224824">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4568" _type="Insert" date="Mon Sep 14 22:15:00 EDT 2020" docASTNodeCount="33" docActiveCodeLength="229" docExpressionCount="18" docLength="229" length="1" offset="220" starttimestamp="1600132875216" timestamp="3225025">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4569" _type="Insert" date="Mon Sep 14 22:15:00 EDT 2020" docASTNodeCount="33" docActiveCodeLength="230" docExpressionCount="18" docLength="230" length="1" offset="221" starttimestamp="1600132875216" timestamp="3225129">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4571" _type="Replace" date="Mon Sep 14 22:15:00 EDT 2020" docASTNodeCount="33" docActiveCodeLength="273" docExpressionCount="18" docLength="273" endLine="8" insertionLength="50" int_docASTNodeCount="31" int_docActiveCodeLength="223" int_docExpressionCount="16" int_docLength="223" length="7" offset="215" startLine="8" starttimestamp="1600132875216" timestamp="3225605">
+    <deletedText><![CDATA[printgi]]></deletedText>
+    <insertedText><![CDATA[printGivenAndGeneratedCombinationsDerivedSaftey();]]></insertedText>
+  </DocumentChange>
+  <Command __id="4555" _type="SelectTextCommand" caretOffset="215" date="Mon Sep 14 22:14:58 EDT 2020" end="367" start="215" starttimestamp="1600132875216" timestamp="3223349" />
+  <Command __id="4557" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:59 EDT 2020" starttimestamp="1600132875216" timestamp="3223844" />
+  <Command __id="4559" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:14:59 EDT 2020" starttimestamp="1600132875216" timestamp="3224002" />
+  <Command __id="4561" _type="InsertStringCommand" date="Mon Sep 14 22:14:59 EDT 2020" starttimestamp="1600132875216" timestamp="3224289" timestamp2="3224289">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="4562" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Mon Sep 14 22:14:59 EDT 2020" start_end="START" starttimestamp="1600132875216" timestamp="3224291" />
+  <Command __id="4570" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Mon Sep 14 22:15:00 EDT 2020" start_end="END" starttimestamp="1600132875216" timestamp="3225604" />
+  <Command __id="4572" _type="InsertStringCommand" date="Mon Sep 14 22:15:00 EDT 2020" starttimestamp="1600132875216" timestamp="3225621" timestamp2="3225621">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4574" _type="InsertStringCommand" date="Mon Sep 14 22:15:02 EDT 2020" starttimestamp="1600132875216" timestamp="3226789" timestamp2="3226789">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4575" _type="MoveCaretCommand" caretOffset="89" date="Mon Sep 14 22:15:03 EDT 2020" docOffset="89" starttimestamp="1600132875216" timestamp="3228596" />
+  <Command __id="4576" _type="SelectTextCommand" caretOffset="93" date="Mon Sep 14 22:15:03 EDT 2020" end="93" start="80" starttimestamp="1600132875216" timestamp="3228750" />
+  <Command __id="4577" _type="SelectTextCommand" caretOffset="117" date="Mon Sep 14 22:15:04 EDT 2020" end="117" start="49" starttimestamp="1600132875216" timestamp="3228903" />
+  <Command __id="4579" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:04 EDT 2020" starttimestamp="1600132875216" timestamp="3228965" />
+  <Command __id="4580" _type="ShellCommand" date="Mon Sep 14 22:15:05 EDT 2020" starttimestamp="1600132875216" timestamp="3230032" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4581" _type="ShellCommand" date="Mon Sep 14 22:15:07 EDT 2020" starttimestamp="1600132875216" timestamp="3232053" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4582" _type="MoveCaretCommand" caretOffset="205" date="Mon Sep 14 22:15:08 EDT 2020" docOffset="205" starttimestamp="1600132875216" timestamp="3232981" />
+  <Command __id="4583" _type="MoveCaretCommand" caretOffset="200" date="Mon Sep 14 22:15:08 EDT 2020" docOffset="200" starttimestamp="1600132875216" timestamp="3233450" />
+  <Command __id="4585" _type="InsertStringCommand" date="Mon Sep 14 22:15:09 EDT 2020" starttimestamp="1600132875216" timestamp="3234235" timestamp2="3234235">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="4587" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3234857" timestamp2="3234857">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="4589" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3234986" timestamp2="3234986">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="4591" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3235050" timestamp2="3235050">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="4593" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3235155" timestamp2="3235155">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4595" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3235242" timestamp2="3235242">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="4597" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3235307" timestamp2="3235307">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4599" _type="InsertStringCommand" date="Mon Sep 14 22:15:10 EDT 2020" starttimestamp="1600132875216" timestamp="3235371" timestamp2="3235371">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="4600" _type="ShellCommand" date="Mon Sep 14 22:15:12 EDT 2020" starttimestamp="1600132875216" timestamp="3236975" type="ECLIPSE_LOST_FOCUS" />
+  <DocumentChange __id="4573" _type="Insert" date="Mon Sep 14 22:15:02 EDT 2020" docASTNodeCount="33" docActiveCodeLength="276" docExpressionCount="18" docLength="276" length="3" offset="265" starttimestamp="1600132875216" timestamp="3226787">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4578" _type="Delete" date="Mon Sep 14 22:15:04 EDT 2020" docASTNodeCount="25" docActiveCodeLength="208" docExpressionCount="11" docLength="208" endLine="4" length="68" offset="49" startLine="3" starttimestamp="1600132875216" timestamp="3228963">
+    <text><![CDATA[import gradingTools.comp524f20.assignment0_1.F20Assignment0_1Suite;
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4584" _type="Insert" date="Mon Sep 14 22:15:09 EDT 2020" docASTNodeCount="27" docActiveCodeLength="209" docExpressionCount="12" docLength="209" length="1" offset="200" starttimestamp="1600132875216" timestamp="3234234">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4586" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="210" docExpressionCount="12" docLength="210" length="1" offset="201" starttimestamp="1600132875216" timestamp="3234855">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4588" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="211" docExpressionCount="12" docLength="211" length="1" offset="202" starttimestamp="1600132875216" timestamp="3234985">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4590" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="212" docExpressionCount="12" docLength="212" length="1" offset="203" starttimestamp="1600132875216" timestamp="3235049">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4592" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="213" docExpressionCount="12" docLength="213" length="1" offset="204" starttimestamp="1600132875216" timestamp="3235154">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4594" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="214" docExpressionCount="12" docLength="214" length="1" offset="205" starttimestamp="1600132875216" timestamp="3235241">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4596" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="215" docExpressionCount="12" docLength="215" length="1" offset="206" starttimestamp="1600132875216" timestamp="3235306">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4598" _type="Insert" date="Mon Sep 14 22:15:10 EDT 2020" docASTNodeCount="27" docActiveCodeLength="216" docExpressionCount="12" docLength="216" length="1" offset="207" starttimestamp="1600132875216" timestamp="3235370">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <Command __id="4601" _type="ShellCommand" date="Mon Sep 14 22:15:35 EDT 2020" starttimestamp="1600132875216" timestamp="3260706" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4602" _type="MoveCaretCommand" caretOffset="213" date="Mon Sep 14 22:15:36 EDT 2020" docOffset="213" starttimestamp="1600132875216" timestamp="3261224" />
+  <Command __id="4603" _type="MoveCaretCommand" caretOffset="208" date="Mon Sep 14 22:15:36 EDT 2020" docOffset="208" starttimestamp="1600132875216" timestamp="3261739" />
+  <Command __id="4604" _type="MoveCaretCommand" caretOffset="208" date="Mon Sep 14 22:15:37 EDT 2020" docOffset="208" starttimestamp="1600132875216" timestamp="3261890" />
+  <Command __id="4605" _type="SelectTextCommand" caretOffset="209" date="Mon Sep 14 22:15:37 EDT 2020" end="209" start="198" starttimestamp="1600132875216" timestamp="3262081" />
+  <Command __id="4607" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:38 EDT 2020" starttimestamp="1600132875216" timestamp="3263292" />
+  <DocumentChange __id="4606" _type="Delete" date="Mon Sep 14 22:15:38 EDT 2020" docASTNodeCount="25" docActiveCodeLength="205" docExpressionCount="11" docLength="205" endLine="9" length="11" offset="198" startLine="8" starttimestamp="1600132875216" timestamp="3263289">
+    <text><![CDATA[		comparse
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4609" _type="Insert" date="Mon Sep 14 22:15:40 EDT 2020" docASTNodeCount="25" docActiveCodeLength="269" docExpressionCount="11" docLength="269" length="64" offset="49" starttimestamp="1600132875216" timestamp="3264819">
+    <text><![CDATA[gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry.]]></text>
+  </DocumentChange>
+  <Command __id="4608" _type="MoveCaretCommand" caretOffset="49" date="Mon Sep 14 22:15:39 EDT 2020" docOffset="49" starttimestamp="1600132875216" timestamp="3264578" />
+  <Command __id="4610" _type="PasteCommand" date="Mon Sep 14 22:15:40 EDT 2020" starttimestamp="1600132875216" timestamp="3264821" />
+  <Command __id="4612" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:41 EDT 2020" starttimestamp="1600132875216" timestamp="3266538" />
+  <Command __id="4614" _type="InsertStringCommand" date="Mon Sep 14 22:15:42 EDT 2020" starttimestamp="1600132875216" timestamp="3266899" timestamp2="3266899">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="4616" _type="InsertStringCommand" date="Mon Sep 14 22:15:42 EDT 2020" starttimestamp="1600132875216" timestamp="3267059" timestamp2="3267059">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="4617" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.LINE_DOWN" date="Mon Sep 14 22:15:42 EDT 2020" starttimestamp="1600132875216" timestamp="3267673" />
+  <Command __id="4618" _type="MoveCaretCommand" caretOffset="50" date="Mon Sep 14 22:15:44 EDT 2020" docOffset="50" starttimestamp="1600132875216" timestamp="3269071" />
+  <Command __id="4619" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.COLUMN_PREVIOUS" date="Mon Sep 14 22:15:45 EDT 2020" starttimestamp="1600132875216" timestamp="3269905" />
+  <Command __id="4621" _type="InsertStringCommand" date="Mon Sep 14 22:15:45 EDT 2020" starttimestamp="1600132875216" timestamp="3270330" timestamp2="3270330">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4623" _type="InsertStringCommand" date="Mon Sep 14 22:15:45 EDT 2020" starttimestamp="1600132875216" timestamp="3270482" timestamp2="3270482">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="4625" _type="InsertStringCommand" date="Mon Sep 14 22:15:45 EDT 2020" starttimestamp="1600132875216" timestamp="3270566" timestamp2="3270566">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="4627" _type="InsertStringCommand" date="Mon Sep 14 22:15:45 EDT 2020" starttimestamp="1600132875216" timestamp="3270651" timestamp2="3270651">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="4629" _type="InsertStringCommand" date="Mon Sep 14 22:15:45 EDT 2020" starttimestamp="1600132875216" timestamp="3270739" timestamp2="3270739">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="4631" _type="InsertStringCommand" date="Mon Sep 14 22:15:46 EDT 2020" starttimestamp="1600132875216" timestamp="3270868" timestamp2="3270868">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="4633" _type="InsertStringCommand" date="Mon Sep 14 22:15:46 EDT 2020" starttimestamp="1600132875216" timestamp="3270932" timestamp2="3270932">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <DocumentChange __id="4611" _type="Delete" date="Mon Sep 14 22:15:41 EDT 2020" docASTNodeCount="25" docActiveCodeLength="268" docExpressionCount="11" docLength="268" endLine="3" length="1" offset="112" startLine="3" starttimestamp="1600132875216" timestamp="3266537">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4613" _type="Insert" date="Mon Sep 14 22:15:42 EDT 2020" docASTNodeCount="25" docActiveCodeLength="269" docExpressionCount="11" docLength="269" length="1" offset="112" starttimestamp="1600132875216" timestamp="3266897">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4615" _type="Insert" date="Mon Sep 14 22:15:42 EDT 2020" docASTNodeCount="25" docActiveCodeLength="270" docExpressionCount="11" docLength="270" length="1" offset="113" starttimestamp="1600132875216" timestamp="3267058">
+    <text><![CDATA[
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4620" _type="Insert" date="Mon Sep 14 22:15:45 EDT 2020" docASTNodeCount="25" docActiveCodeLength="271" docExpressionCount="11" docLength="271" length="1" offset="49" starttimestamp="1600132875216" timestamp="3270329">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4622" _type="Insert" date="Mon Sep 14 22:15:45 EDT 2020" docASTNodeCount="25" docActiveCodeLength="272" docExpressionCount="11" docLength="272" length="1" offset="50" starttimestamp="1600132875216" timestamp="3270481">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4624" _type="Insert" date="Mon Sep 14 22:15:45 EDT 2020" docASTNodeCount="25" docActiveCodeLength="273" docExpressionCount="11" docLength="273" length="1" offset="51" starttimestamp="1600132875216" timestamp="3270565">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4626" _type="Insert" date="Mon Sep 14 22:15:45 EDT 2020" docASTNodeCount="25" docActiveCodeLength="274" docExpressionCount="11" docLength="274" length="1" offset="52" starttimestamp="1600132875216" timestamp="3270650">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4628" _type="Insert" date="Mon Sep 14 22:15:45 EDT 2020" docASTNodeCount="25" docActiveCodeLength="275" docExpressionCount="11" docLength="275" length="1" offset="53" starttimestamp="1600132875216" timestamp="3270737">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4630" _type="Insert" date="Mon Sep 14 22:15:46 EDT 2020" docASTNodeCount="25" docActiveCodeLength="276" docExpressionCount="11" docLength="276" length="1" offset="54" starttimestamp="1600132875216" timestamp="3270866">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4632" _type="Insert" date="Mon Sep 14 22:15:46 EDT 2020" docASTNodeCount="33" docActiveCodeLength="277" docExpressionCount="18" docLength="277" length="1" offset="55" starttimestamp="1600132875216" timestamp="3270931">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4635" _type="Insert" date="Mon Sep 14 22:15:48 EDT 2020" docASTNodeCount="33" docActiveCodeLength="278" docExpressionCount="18" docLength="278" length="1" offset="149" starttimestamp="1600132875216" timestamp="3273665">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4637" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="279" docExpressionCount="18" docLength="279" length="1" offset="150" starttimestamp="1600132875216" timestamp="3274098">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4639" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="280" docExpressionCount="18" docLength="280" length="1" offset="151" starttimestamp="1600132875216" timestamp="3274180">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4641" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="281" docExpressionCount="18" docLength="281" length="1" offset="152" starttimestamp="1600132875216" timestamp="3274289">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4643" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="282" docExpressionCount="18" docLength="282" length="1" offset="153" starttimestamp="1600132875216" timestamp="3274489">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4645" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="283" docExpressionCount="18" docLength="283" length="1" offset="154" starttimestamp="1600132875216" timestamp="3274553">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4647" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="284" docExpressionCount="18" docLength="284" length="1" offset="155" starttimestamp="1600132875216" timestamp="3274657">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4649" _type="Insert" date="Mon Sep 14 22:15:49 EDT 2020" docASTNodeCount="35" docActiveCodeLength="285" docExpressionCount="18" docLength="285" length="1" offset="156" starttimestamp="1600132875216" timestamp="3274721">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4651" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="35" docActiveCodeLength="286" docExpressionCount="18" docLength="286" length="1" offset="157" starttimestamp="1600132875216" timestamp="3274825">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4653" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="35" docActiveCodeLength="287" docExpressionCount="18" docLength="287" length="1" offset="158" starttimestamp="1600132875216" timestamp="3274890">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4655" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="33" docActiveCodeLength="288" docExpressionCount="18" docLength="288" length="1" offset="159" starttimestamp="1600132875216" timestamp="3274977">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4657" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="33" docActiveCodeLength="289" docExpressionCount="18" docLength="289" length="1" offset="160" starttimestamp="1600132875216" timestamp="3275105">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4659" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="35" docActiveCodeLength="290" docExpressionCount="19" docLength="290" length="1" offset="161" starttimestamp="1600132875216" timestamp="3275473">
+    <text><![CDATA[S]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4661" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="35" docActiveCodeLength="291" docExpressionCount="19" docLength="291" length="1" offset="162" starttimestamp="1600132875216" timestamp="3275652">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <Command __id="4634" _type="MoveCaretCommand" caretOffset="149" date="Mon Sep 14 22:15:48 EDT 2020" docOffset="149" starttimestamp="1600132875216" timestamp="3273028" />
+  <Command __id="4636" _type="InsertStringCommand" date="Mon Sep 14 22:15:48 EDT 2020" starttimestamp="1600132875216" timestamp="3273666" timestamp2="3273666">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="4638" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274099" timestamp2="3274099">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4640" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274181" timestamp2="3274181">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="4642" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274290" timestamp2="3274290">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="4644" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274491" timestamp2="3274491">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4646" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274554" timestamp2="3274554">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="4648" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274658" timestamp2="3274658">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="4650" _type="InsertStringCommand" date="Mon Sep 14 22:15:49 EDT 2020" starttimestamp="1600132875216" timestamp="3274722" timestamp2="3274722">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="4652" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3274826" timestamp2="3274826">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="4654" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3274891" timestamp2="3274891">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="4656" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3274978" timestamp2="3274978">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4658" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3275106" timestamp2="3275106">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="4660" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3275474" timestamp2="3275474">
+    <data><![CDATA[S]]></data>
+  </Command>
+  <Command __id="4662" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3275653" timestamp2="3275653">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="4664" _type="InsertStringCommand" date="Mon Sep 14 22:15:50 EDT 2020" starttimestamp="1600132875216" timestamp="3275723" timestamp2="3275723">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="4666" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3275806" timestamp2="3275806">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4668" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3275890" timestamp2="3275890">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4670" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3275954" timestamp2="3275954">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4672" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276186" timestamp2="3276186">
+    <data><![CDATA[D]]></data>
+  </Command>
+  <Command __id="4674" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276330" timestamp2="3276330">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4676" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276394" timestamp2="3276394">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4678" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276482" timestamp2="3276482">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="4680" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276564" timestamp2="3276564">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <DocumentChange __id="4663" _type="Insert" date="Mon Sep 14 22:15:50 EDT 2020" docASTNodeCount="35" docActiveCodeLength="292" docExpressionCount="19" docLength="292" length="1" offset="163" starttimestamp="1600132875216" timestamp="3275721">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4665" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="293" docExpressionCount="19" docLength="293" length="1" offset="164" starttimestamp="1600132875216" timestamp="3275804">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4667" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="294" docExpressionCount="19" docLength="294" length="1" offset="165" starttimestamp="1600132875216" timestamp="3275889">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4669" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="295" docExpressionCount="19" docLength="295" length="1" offset="166" starttimestamp="1600132875216" timestamp="3275953">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4671" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="296" docExpressionCount="19" docLength="296" length="1" offset="167" starttimestamp="1600132875216" timestamp="3276185">
+    <text><![CDATA[D]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4673" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="297" docExpressionCount="19" docLength="297" length="1" offset="168" starttimestamp="1600132875216" timestamp="3276329">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4675" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="298" docExpressionCount="19" docLength="298" length="1" offset="169" starttimestamp="1600132875216" timestamp="3276393">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4677" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="299" docExpressionCount="19" docLength="299" length="1" offset="170" starttimestamp="1600132875216" timestamp="3276481">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4679" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="300" docExpressionCount="19" docLength="300" length="1" offset="171" starttimestamp="1600132875216" timestamp="3276563">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4681" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="301" docExpressionCount="19" docLength="301" length="1" offset="172" starttimestamp="1600132875216" timestamp="3276649">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4683" _type="Insert" date="Mon Sep 14 22:15:51 EDT 2020" docASTNodeCount="35" docActiveCodeLength="302" docExpressionCount="19" docLength="302" length="1" offset="173" starttimestamp="1600132875216" timestamp="3276737">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4685" _type="Insert" date="Mon Sep 14 22:15:52 EDT 2020" docASTNodeCount="35" docActiveCodeLength="303" docExpressionCount="19" docLength="303" length="1" offset="174" starttimestamp="1600132875216" timestamp="3276937">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4687" _type="Insert" date="Mon Sep 14 22:15:52 EDT 2020" docASTNodeCount="35" docActiveCodeLength="304" docExpressionCount="19" docLength="304" length="1" offset="175" starttimestamp="1600132875216" timestamp="3277252">
+    <text><![CDATA[C]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4689" _type="Insert" date="Mon Sep 14 22:15:52 EDT 2020" docASTNodeCount="35" docActiveCodeLength="305" docExpressionCount="19" docLength="305" length="1" offset="176" starttimestamp="1600132875216" timestamp="3277457">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4691" _type="Insert" date="Mon Sep 14 22:15:52 EDT 2020" docASTNodeCount="35" docActiveCodeLength="306" docExpressionCount="19" docLength="306" length="1" offset="177" starttimestamp="1600132875216" timestamp="3277673">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4693" _type="Insert" date="Mon Sep 14 22:15:52 EDT 2020" docASTNodeCount="35" docActiveCodeLength="307" docExpressionCount="19" docLength="307" length="1" offset="178" starttimestamp="1600132875216" timestamp="3277761">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4695" _type="Insert" date="Mon Sep 14 22:15:53 EDT 2020" docASTNodeCount="35" docActiveCodeLength="308" docExpressionCount="19" docLength="308" length="1" offset="179" starttimestamp="1600132875216" timestamp="3277825">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4697" _type="Delete" date="Mon Sep 14 22:15:53 EDT 2020" docASTNodeCount="35" docActiveCodeLength="307" docExpressionCount="19" docLength="307" endLine="5" length="1" offset="179" startLine="5" starttimestamp="1600132875216" timestamp="3278017">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4699" _type="Delete" date="Mon Sep 14 22:15:53 EDT 2020" docASTNodeCount="35" docActiveCodeLength="306" docExpressionCount="19" docLength="306" endLine="5" length="1" offset="178" startLine="5" starttimestamp="1600132875216" timestamp="3278137">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4701" _type="Delete" date="Mon Sep 14 22:15:53 EDT 2020" docASTNodeCount="35" docActiveCodeLength="305" docExpressionCount="19" docLength="305" endLine="5" length="1" offset="177" startLine="5" starttimestamp="1600132875216" timestamp="3278393">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4703" _type="Delete" date="Mon Sep 14 22:15:53 EDT 2020" docASTNodeCount="35" docActiveCodeLength="304" docExpressionCount="19" docLength="304" endLine="5" length="1" offset="176" startLine="5" starttimestamp="1600132875216" timestamp="3278546">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4705" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="305" docExpressionCount="19" docLength="305" length="1" offset="176" starttimestamp="1600132875216" timestamp="3278785">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4707" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="306" docExpressionCount="19" docLength="306" length="1" offset="177" starttimestamp="1600132875216" timestamp="3278827">
+    <text><![CDATA[a]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4709" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="307" docExpressionCount="19" docLength="307" length="1" offset="178" starttimestamp="1600132875216" timestamp="3278873">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <Command __id="4682" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276650" timestamp2="3276650">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="4684" _type="InsertStringCommand" date="Mon Sep 14 22:15:51 EDT 2020" starttimestamp="1600132875216" timestamp="3276738" timestamp2="3276738">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="4686" _type="InsertStringCommand" date="Mon Sep 14 22:15:52 EDT 2020" starttimestamp="1600132875216" timestamp="3276938" timestamp2="3276938">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="4688" _type="InsertStringCommand" date="Mon Sep 14 22:15:52 EDT 2020" starttimestamp="1600132875216" timestamp="3277253" timestamp2="3277253">
+    <data><![CDATA[C]]></data>
+  </Command>
+  <Command __id="4690" _type="InsertStringCommand" date="Mon Sep 14 22:15:52 EDT 2020" starttimestamp="1600132875216" timestamp="3277458" timestamp2="3277458">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4692" _type="InsertStringCommand" date="Mon Sep 14 22:15:52 EDT 2020" starttimestamp="1600132875216" timestamp="3277674" timestamp2="3277674">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4694" _type="InsertStringCommand" date="Mon Sep 14 22:15:52 EDT 2020" starttimestamp="1600132875216" timestamp="3277762" timestamp2="3277762">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4696" _type="InsertStringCommand" date="Mon Sep 14 22:15:53 EDT 2020" starttimestamp="1600132875216" timestamp="3277826" timestamp2="3277826">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4698" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:53 EDT 2020" starttimestamp="1600132875216" timestamp="3278018" />
+  <Command __id="4700" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:53 EDT 2020" starttimestamp="1600132875216" timestamp="3278138" />
+  <Command __id="4702" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:53 EDT 2020" starttimestamp="1600132875216" timestamp="3278394" />
+  <Command __id="4704" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:15:53 EDT 2020" starttimestamp="1600132875216" timestamp="3278547" />
+  <Command __id="4706" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3278786" timestamp2="3278786">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="4708" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3278828" timestamp2="3278828">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="4710" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3278874" timestamp2="3278874">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4712" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279013" timestamp2="3279013">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4714" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279226" timestamp2="3279226">
+    <data><![CDATA[R]]></data>
+  </Command>
+  <Command __id="4716" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279290" timestamp2="3279290">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="4718" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279402" timestamp2="3279402">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="4720" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279506" timestamp2="3279506">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="4722" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279595" timestamp2="3279595">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="4724" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279636" timestamp2="3279636">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="4726" _type="InsertStringCommand" date="Mon Sep 14 22:15:54 EDT 2020" starttimestamp="1600132875216" timestamp="3279779" timestamp2="3279779">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="4728" _type="InsertStringCommand" date="Mon Sep 14 22:15:55 EDT 2020" starttimestamp="1600132875216" timestamp="3279844" timestamp2="3279844">
+    <data><![CDATA[y]]></data>
+  </Command>
+  <Command __id="4729" _type="MoveCaretCommand" caretOffset="316" date="Mon Sep 14 22:15:58 EDT 2020" docOffset="316" starttimestamp="1600132875216" timestamp="3283583" />
+  <Command __id="4730" _type="ShellCommand" date="Mon Sep 14 22:16:00 EDT 2020" starttimestamp="1600132875216" timestamp="3285371" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4731" _type="ShellCommand" date="Mon Sep 14 22:16:29 EDT 2020" starttimestamp="1600132875216" timestamp="3314454" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4732" _type="MoveCaretCommand" caretOffset="65" date="Mon Sep 14 22:16:40 EDT 2020" docOffset="65" starttimestamp="1600132875216" timestamp="3324809" />
+  <Command __id="4733" _type="SelectTextCommand" caretOffset="68" date="Mon Sep 14 22:16:40 EDT 2020" end="68" start="56" starttimestamp="1600132875216" timestamp="3324982" />
+  <Command __id="4734" _type="SelectTextCommand" caretOffset="121" date="Mon Sep 14 22:16:40 EDT 2020" end="121" start="49" starttimestamp="1600132875216" timestamp="3325152" />
+  <Command __id="4736" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:41 EDT 2020" starttimestamp="1600132875216" timestamp="3325789" />
+  <Command __id="4737" _type="ShellCommand" date="Mon Sep 14 22:16:43 EDT 2020" starttimestamp="1600132875216" timestamp="3328413" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="4740" _type="ShellCommand" date="Mon Sep 14 22:16:43 EDT 2020" starttimestamp="1600132875216" timestamp="3328545" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="4741" _type="MoveCaretCommand" caretOffset="41" date="Mon Sep 14 22:16:45 EDT 2020" docOffset="41" starttimestamp="1600132875216" timestamp="3330220" />
+  <Command __id="4742" _type="SelectTextCommand" caretOffset="45" date="Mon Sep 14 22:16:45 EDT 2020" end="45" start="35" starttimestamp="1600132875216" timestamp="3330366" />
+  <Command __id="4743" _type="SelectTextCommand" caretOffset="87" date="Mon Sep 14 22:16:45 EDT 2020" end="87" start="15" starttimestamp="1600132875216" timestamp="3330517" />
+  <Command __id="4745" _type="InsertStringCommand" date="Mon Sep 14 22:16:46 EDT 2020" starttimestamp="1600132875216" timestamp="3330985" timestamp2="3330985">
+    <data><![CDATA[=]]></data>
+  </Command>
+  <DocumentChange __id="4711" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="308" docExpressionCount="19" docLength="308" length="1" offset="179" starttimestamp="1600132875216" timestamp="3279011">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4713" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="309" docExpressionCount="19" docLength="309" length="1" offset="180" starttimestamp="1600132875216" timestamp="3279225">
+    <text><![CDATA[R]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4715" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="310" docExpressionCount="19" docLength="310" length="1" offset="181" starttimestamp="1600132875216" timestamp="3279289">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4717" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="311" docExpressionCount="19" docLength="311" length="1" offset="182" starttimestamp="1600132875216" timestamp="3279401">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4719" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="312" docExpressionCount="19" docLength="312" length="1" offset="183" starttimestamp="1600132875216" timestamp="3279505">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4721" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="313" docExpressionCount="19" docLength="313" length="1" offset="184" starttimestamp="1600132875216" timestamp="3279593">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4723" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="314" docExpressionCount="19" docLength="314" length="1" offset="185" starttimestamp="1600132875216" timestamp="3279635">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4725" _type="Insert" date="Mon Sep 14 22:15:54 EDT 2020" docASTNodeCount="35" docActiveCodeLength="315" docExpressionCount="19" docLength="315" length="1" offset="186" starttimestamp="1600132875216" timestamp="3279778">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4727" _type="Insert" date="Mon Sep 14 22:15:55 EDT 2020" docASTNodeCount="35" docActiveCodeLength="316" docExpressionCount="19" docLength="316" length="1" offset="187" starttimestamp="1600132875216" timestamp="3279843">
+    <text><![CDATA[y]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4735" _type="Delete" date="Mon Sep 14 22:16:41 EDT 2020" docASTNodeCount="27" docActiveCodeLength="244" docExpressionCount="12" docLength="244" endLine="4" length="72" offset="49" startLine="3" starttimestamp="1600132875216" timestamp="3325787">
+    <text><![CDATA[import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4738" _type="Insert" date="Mon Sep 14 22:16:43 EDT 2020" docASTNodeCount="27" docActiveCodeLength="245" docExpressionCount="12" docLength="245" length="1" offset="15" starttimestamp="1600132875216" timestamp="3328514">
+    <text><![CDATA[
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4739" _type="Insert" date="Mon Sep 14 22:16:43 EDT 2020" docASTNodeCount="35" docActiveCodeLength="316" docExpressionCount="19" docLength="316" length="71" offset="15" starttimestamp="1600132875216" timestamp="3328514">
+    <text><![CDATA[import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4744" _type="Replace" date="Mon Sep 14 22:16:46 EDT 2020" docASTNodeCount="27" docActiveCodeLength="245" docExpressionCount="12" docLength="245" endLine="3" insertionLength="1" int_docASTNodeCount="27" int_docActiveCodeLength="244" int_docExpressionCount="12" int_docLength="244" length="72" offset="15" startLine="2" starttimestamp="1600132875216" timestamp="3330982">
+    <deletedText><![CDATA[import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;
+]]></deletedText>
+    <insertedText><![CDATA[=]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="4748" _type="Delete" date="Mon Sep 14 22:16:47 EDT 2020" docASTNodeCount="25" docActiveCodeLength="218" docExpressionCount="11" docLength="218" endLine="4" length="27" offset="90" startLine="4" starttimestamp="1600132875216" timestamp="3332754">
+    <text><![CDATA[SocialDistanceClassRegistry]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4750" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="25" docActiveCodeLength="217" docExpressionCount="11" docLength="217" endLine="4" length="1" offset="89" startLine="4" starttimestamp="1600132875216" timestamp="3333254">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4752" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="216" docExpressionCount="11" docLength="216" endLine="4" length="1" offset="88" startLine="4" starttimestamp="1600132875216" timestamp="3333285">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4754" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="215" docExpressionCount="11" docLength="215" endLine="4" length="1" offset="87" startLine="4" starttimestamp="1600132875216" timestamp="3333315">
+    <text><![CDATA[t]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4756" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="214" docExpressionCount="11" docLength="214" endLine="4" length="1" offset="86" startLine="4" starttimestamp="1600132875216" timestamp="3333345">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4758" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="213" docExpressionCount="11" docLength="213" endLine="4" length="1" offset="85" startLine="4" starttimestamp="1600132875216" timestamp="3333377">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4760" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="212" docExpressionCount="11" docLength="212" endLine="4" length="1" offset="84" startLine="4" starttimestamp="1600132875216" timestamp="3333406">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4762" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="211" docExpressionCount="11" docLength="211" endLine="4" length="1" offset="83" startLine="4" starttimestamp="1600132875216" timestamp="3333437">
+    <text><![CDATA[e]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4764" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="210" docExpressionCount="11" docLength="210" endLine="4" length="1" offset="82" startLine="4" starttimestamp="1600132875216" timestamp="3333468">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4766" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="209" docExpressionCount="11" docLength="209" endLine="4" length="1" offset="81" startLine="4" starttimestamp="1600132875216" timestamp="3333497">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="4768" _type="Delete" date="Mon Sep 14 22:16:48 EDT 2020" docASTNodeCount="27" docActiveCodeLength="208" docExpressionCount="11" docLength="208" endLine="4" length="1" offset="80" startLine="4" starttimestamp="1600132875216" timestamp="3333666">
+    <text><![CDATA[m]]></text>
+  </DocumentChange>
+  <Command __id="4746" _type="MoveCaretCommand" caretOffset="101" date="Mon Sep 14 22:16:47 EDT 2020" docOffset="101" starttimestamp="1600132875216" timestamp="3332305" />
+  <Command __id="4747" _type="SelectTextCommand" caretOffset="117" date="Mon Sep 14 22:16:47 EDT 2020" end="117" start="90" starttimestamp="1600132875216" timestamp="3332427" />
+  <Command __id="4749" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:47 EDT 2020" starttimestamp="1600132875216" timestamp="3332756" />
+  <Command __id="4751" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333255" />
+  <Command __id="4753" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333286" />
+  <Command __id="4755" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333316" />
+  <Command __id="4757" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333346" />
+  <Command __id="4759" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333378" />
+  <Command __id="4761" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333407" />
+  <Command __id="4763" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333438" />
+  <Command __id="4765" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333469" />
+  <Command __id="4767" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333498" />
+  <Command __id="4769" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:48 EDT 2020" starttimestamp="1600132875216" timestamp="3333667" />
+  <Command __id="4771" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:49 EDT 2020" starttimestamp="1600132875216" timestamp="3333822" />
+  <Command __id="4773" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Mon Sep 14 22:16:49 EDT 2020" starttimestamp="1600132875216" timestamp="3334131" />
+  <Command __id="4774" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Mon Sep 14 22:16:50 EDT 2020" starttimestamp="1600132875216" timestamp="3335038" />
+  <Command __id="4775" _type="EclipseCommand" commandID="" date="Mon Sep 14 22:16:50 EDT 2020" starttimestamp="1600132875216" timestamp="3335177" />
+  <Command __id="4776" _type="EclipseCommand" commandID="" date="Mon Sep 14 22:16:50 EDT 2020" starttimestamp="1600132875216" timestamp="3335195" />
+  <Command __id="4777" _type="MoveCaretCommand" caretOffset="71" date="Mon Sep 14 22:16:55 EDT 2020" docOffset="71" starttimestamp="1600132875216" timestamp="3340134" />
+  <Command __id="4778" _type="SelectTextCommand" caretOffset="78" date="Mon Sep 14 22:16:55 EDT 2020" end="78" start="64" starttimestamp="1600132875216" timestamp="3340272" />
+</Events>
