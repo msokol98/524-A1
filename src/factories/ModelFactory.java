@@ -7,13 +7,14 @@ public class ModelFactory {
 		
 	static SocialDistancingModel singleton;
 	
-	public static SocialDistancingModel getSocialDistancingModel() {
-		if(singleton == null)
+	public static SocialDistancingModel getSingleton() {
+		if(singleton == null) {
 			singleton = new BasicModel();
+		}
 		return singleton;
 	}
 	
-	public static void setSocialDistancingModel(SocialDistancingModel model) {
+	public static void setSocialDistancingModel(final SocialDistancingModel model) {
 		singleton = model;
 	}
 	

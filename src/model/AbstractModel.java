@@ -26,16 +26,16 @@ abstract public class AbstractModel implements SocialDistancingModel {
 	
 	public abstract boolean isSafe();
 	
-	public void setInput(int distance, int duration, int exhalationLevel) {
-		int oldDistance = distance;
-		int oldDuration = duration;
-		int oldExhalationLevel = exhalationLevel;
-		Boolean oldSafe = safe;
+	public void setInput(final int aDistance, final int aDuration, final int anExhalationLevel) {
+		final int oldDistance = distance;
+		final int oldDuration = duration;
+		final int oldExhalationLevel = exhalationLevel;
+		final Boolean oldSafe = safe;
 		
-		this.distance = distance;
-		this.duration = duration;
-		this.exhalationLevel = exhalationLevel;
-		this.safe = isSafe();
+		distance = aDistance;
+		duration = aDuration;
+		exhalationLevel = anExhalationLevel;
+		safe = isSafe();
 		
 		propertyChangeSupport.firePropertyChange(DISTANCE, null, distance);
 		propertyChangeSupport.firePropertyChange(DURATION, null, duration);
@@ -45,7 +45,7 @@ abstract public class AbstractModel implements SocialDistancingModel {
 	
 	
 	@Override
-	public void addPropertyChangeListener(PropertyChangeListener listener) {
+	public void addPropertyChangeListener(final PropertyChangeListener listener) {
 		propertyChangeSupport.addPropertyChangeListener(listener);
 	}
 	

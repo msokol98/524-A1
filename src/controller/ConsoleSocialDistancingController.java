@@ -8,43 +8,52 @@ import factories.ModelFactory;
 
 public class ConsoleSocialDistancingController implements SocialDistancingController {
 	
-	private Map<String, Integer> inputs = new HashMap<>();
-	private String prompt = "Please enter data regarding your guest interaction.";
+	private final Map<String, Integer> inputs = new HashMap<>();
+	private final String prompt = "Please enter data regarding your guest interaction.";
+	
+	public static final String DISTANCE = "Distance"; 
+	public static final String DURATION = "Duration"; 
+	public static final String EXHALATION_LEVEL = "Exhalation Level"; 
 
-	public ConsoleSocialDistancingController() {
-		inputs.put("Distance", null);
-		inputs.put("Duration", null);
-		inputs.put("Exhalation Level", null);
+	private void addInputTypes() {
+		inputs.put(DISTANCE, null);
+		inputs.put(DURATION, null);
+		inputs.put(EXHALATION_LEVEL, null);
 	}
 	
 	@Override
 	public void processInput() {
+		final Scanner sn = new Scanner(System.in);
+		addInputTypes();
+
 		for(;;) {
 			System.out.println(prompt);
 			
-			Scanner sn = new Scanner(System.in);
 			
 			for(String inputType : inputs.keySet()) {
 				System.out.println(inputType + "?");
-				int userInput = Integer.parseInt(sn.next());
+				final int userInput = Integer.parseInt(sn.next());
 								
-				if(isValid(userInput)) 
+				if(isValid(userInput)) {
 					inputs.put(inputType, userInput);
-				else
+										
+				} else {
 					System.out.println("Quitting.");
+				}
 								
 			}
-
-			//sn.close();
 			
-			ModelFactory.getSocialDistancingModel().
-				setInput(inputs.get("Distance"), 
-						inputs.get("Duration"),
-						inputs.get("Exhalation Level"));
+			ModelFactory.getSingleton().
+				setInput
+					(inputs.get(DISTANCE), 
+					inputs.get(DURATION),
+					inputs.get(EXHALATION_LEVEL));
+
 		}
+		//sn.close();
 	}
 	
-	private boolean isValid(int input) {
+	private boolean isValid(final int input) {
 		return input > 0;
 	}
 }

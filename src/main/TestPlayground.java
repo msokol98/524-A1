@@ -1,6 +1,7 @@
 package main;
 
 import controller.ConsoleSocialDistancingController;
+import factories.ClassifierFactory;
 import factories.ControllerFactory;
 import factories.ModelFactory;
 import factories.ViewFactory;
@@ -9,12 +10,13 @@ import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;
 import model.BasicModel;
 import model.DerivedModel;
 import model.InterpolatingModel;
+import util.SocialDistanceUtilTester;
 import util.SocialDistancingUtil;
 import view.SocialDistancingViewImpl;
 
 public class TestPlayground implements SocialDistanceClassRegistry {
 	
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		F20Assignment1Suite.main(args);
 	}
 
@@ -45,7 +47,7 @@ public class TestPlayground implements SocialDistanceClassRegistry {
 	@Override
 	public Class<?> getSocialDistanceClassifierFactory() {
 		// TODO Auto-generated method stub
-		return null;
+		return ClassifierFactory.class;
 	}
 
 	@Override
@@ -81,7 +83,7 @@ public class TestPlayground implements SocialDistanceClassRegistry {
 	@Override
 	public Class<?> getSocialDistanceMVCInferringMain() {
 		// TODO Auto-generated method stub
-		return null;
+		return InferringMain.class;
 	}
 
 	@Override
@@ -99,7 +101,7 @@ public class TestPlayground implements SocialDistanceClassRegistry {
 	@Override
 	public Class<?> getSocialDistanceUilityTesterMain() {
 		// TODO Auto-generated method stub
-		return this.getClass();
+		return SocialDistanceUtilTester.class;
 	}
 
 	@Override

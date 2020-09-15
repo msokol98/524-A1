@@ -330,3 +330,645 @@
 0,Mon Sep 14 23:09:06 EDT 2020,true,model/BasicModel.java,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),BasicModel,data.Combination
 0,Mon Sep 14 23:09:06 EDT 2020,true,model/BasicModel.java,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),BasicModel,data.Combination
 0,Mon Sep 14 23:09:06 EDT 2020,true,model/BasicModel.java,publicMethodsOverride,[]
+2,Tue Sep 15 11:12:02 EDT 2020,true,util/SocialDistancingUtil.java,tags,@BasicSocialDistanceUtility
+2,Tue Sep 15 11:12:26 EDT 2020,true,util/SocialDistancingUtil.java,tags,@BasicSocialDistanceUtility
+5,Tue Sep 15 11:19:17 EDT 2020,true,main/InterpolatingMain.java,tags,@SocialDistanceMVCInterpolatingMain
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,duplicateShortTypeName,[ConsoleSocialDistancingController, controller.ConsoleSocialDistancingController]
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameNotInDictionary,sn,sn
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,minimumVowelInNameCheck,sn,sn,1
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,controller
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,console
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,social
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,distancing
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,inputs,inputs
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,prompt,prompt
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,inputType,input
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,inputType,type
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,userInput,user
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,userInput,input
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,input,input
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,methodBlockLimit,ConsoleSocialDistancingController,METHOD_DEF[20x1],2,1
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nestedBlockDepth,2,1
+6,Tue Sep 15 11:21:29 EDT 2020,true,controller/ConsoleSocialDistancingController.java,publicMethodsOverride,[]
+6,Tue Sep 15 11:21:29 EDT 2020,true,main/InterpolatingMain.java,duplicateShortTypeName,[InterpolatingMain, main.InterpolatingMain]
+6,Tue Sep 15 11:21:29 EDT 2020,true,main/InterpolatingMain.java,nameInDictionary,main.InterpolatingMain,main
+6,Tue Sep 15 11:21:29 EDT 2020,true,main/InterpolatingMain.java,nameInDictionary,main.InterpolatingMain,interpolating
+6,Tue Sep 15 11:21:29 EDT 2020,true,main/InterpolatingMain.java,nameInDictionary,args,args
+6,Tue Sep 15 12:18:11 EDT 2020,true,util/SocialDistancingUtil.java,tags,@BasicSocialDistanceUtility
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,nameInDictionary,model.InferredModel,model
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,nameInDictionary,model.InferredModel,inferred
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,peerCommonProperties,readonly  p-v:1 access:public ExhalationLevel:int(public , null),InferredModel,data.Combination
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),InferredModel,data.Combination
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),InferredModel,data.Combination
+6,Tue Sep 15 12:18:51 EDT 2020,true,model/InferredModel.java,publicMethodsOverride,[]
+6,Tue Sep 15 12:18:51 EDT 2020,true,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factories
+6,Tue Sep 15 12:18:51 EDT 2020,true,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factory
+6,Tue Sep 15 12:18:51 EDT 2020,true,factories/ClassifierFactory.java,nameInDictionary,singleton,singleton
+6,Tue Sep 15 12:18:51 EDT 2020,true,factories/ClassifierFactory.java,nameNotInDictionary,factories.ClassifierFactory,classifier
+6,Tue Sep 15 12:18:51 EDT 2020,true,factories/ClassifierFactory.java,functionAssignsGlobal,getClassifier
+16,Tue Sep 15 12:37:12 EDT 2020,true,main/TestPlayground.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+16,Tue Sep 15 12:37:12 EDT 2020,true,main/TestPlayground.java,nameInDictionary,main.TestPlayground,main
+16,Tue Sep 15 12:37:12 EDT 2020,true,main/TestPlayground.java,nameInDictionary,main.TestPlayground,test
+16,Tue Sep 15 12:37:12 EDT 2020,true,main/TestPlayground.java,nameInDictionary,main.TestPlayground,playground
+16,Tue Sep 15 12:37:12 EDT 2020,true,main/TestPlayground.java,nameInDictionary,args,args
+16,Tue Sep 15 12:37:12 EDT 2020,true,main/TestPlayground.java,publicMethodsOverride,[]
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolatedCombination,nameInDictionary,interpolatedCombination,interpolated
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolatedCombination,nameInDictionary,interpolatedCombination,combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_DISTANCE,nameInDictionary,MEDIUM_DISTANCE,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_DISTANCE,nameInDictionary,MEDIUM_DISTANCE,medium
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceViewFactory,tags,@SocialDistanceViewFactory
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSafeCombsByInterpolatedExhalationLevel:int->List,methodAccessModifierMatched,getSafeCombsByInterpolatedExhalationLevel:int->List,private,[util.SocialDistancingUtil],[private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancingModel,functionAssignsGlobal,getSocialDistancingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,getBasicSocialDistanceUtility:->Class,methodAccessModifierUnmatched,getBasicSocialDistanceUtility:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Constants,nameInDictionary,data.Constants,data
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Constants,nameInDictionary,data.Constants,constants
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingView,nameInDictionary,view.SocialDistancingView,view
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingView,nameInDictionary,view.SocialDistancingView,distancing
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingView,nameInDictionary,view.SocialDistancingView,social
+18,Tue Sep 15 12:41:15 EDT 2020,false,[main.DerivingMain,duplicateShortTypeName,[main.DerivingMain, DerivingMain]
+18,Tue Sep 15 12:41:15 EDT 2020,false,output,nameInDictionary,output,output
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolateExhalationLevel:int->int,methodAccessModifierMatched,interpolateExhalationLevel:int->int,public,[model.InterpolatingModel, util.SocialDistancingUtil, util.Interpolator],[public, package, private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,setSocialDistancingModel:model.SocialDistancingModel->void,methodAccessModifierMatched,setSocialDistancingModel:model.SocialDistancingModel->void,public,[main.DerivingMain, main.BasicMain, main.InterpolatingMain],[public, public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,smallestNum,nameInDictionary,smallestNum,smallest
+18,Tue Sep 15 12:41:15 EDT 2020,false,smallestNum,nameInDictionary,smallestNum,num
+18,Tue Sep 15 12:41:15 EDT 2020,false,processInput:->void,methodAccessModifierMatched,processInput:->void,public,[util.MVCUtil],[public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_DISTANCE,nameInDictionary,SMALL_DISTANCE,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_DISTANCE,nameInDictionary,SMALL_DISTANCE,small
+18,Tue Sep 15 12:41:15 EDT 2020,false,exhalationLevelConts,nameInDictionary,exhalationLevelConts,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,exhalationLevelConts,nameNotInDictionary,exhalationLevelConts,conts
+18,Tue Sep 15 12:41:15 EDT 2020,false,exhalationLevelConts,nameInDictionary,exhalationLevelConts,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,model,nameInDictionary,model,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,10,liberalMagicNumber,10,10
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceInterpolatingModel:->Class,methodAccessModifierUnmatched,getSocialDistanceInterpolatingModel:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingUtil,methodBlockLimit,SocialDistancingUtil,METHOD_DEF[62x1],2,1
+18,Tue Sep 15 12:41:15 EDT 2020,false,DISTANCE,nameInDictionary,DISTANCE,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldDuration,nameInDictionary,oldDuration,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldDuration,nameInDictionary,oldDuration,old
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistancDerivingModel,tags,@SocialDistancDerivingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceMVCDerivingMain:->Class,methodAccessModifierUnmatched,getSocialDistanceMVCDerivingMain:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,[ControllerFactory,duplicateShortTypeName,[ControllerFactory, factories.ControllerFactory]
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),InterpolatingModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),DerivedModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),BasicModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),AbstractModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,isValid:int->boolean,methodAccessModifierMatched,isValid:int->boolean,private,[controller.ConsoleSocialDistancingController],[private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,exhalationLevel,nameInDictionary,exhalationLevel,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,exhalationLevel,nameInDictionary,exhalationLevel,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,[model.BasicModel,duplicateShortTypeName,[model.BasicModel, BasicModel]
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ModelFactory,nameInDictionary,factories.ModelFactory,factory
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ModelFactory,nameInDictionary,factories.ModelFactory,factories
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ModelFactory,nameInDictionary,factories.ModelFactory,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,theInterpolator,nameNotInDictionary,theInterpolator,interpolator
+18,Tue Sep 15 12:41:15 EDT 2020,false,theInterpolator,nameInDictionary,theInterpolator,the
+18,Tue Sep 15 12:41:15 EDT 2020,false,iDuration,nameInDictionary,iDuration,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,iDuration,minimumLettersInNameCheck,iDuration,i,2
+18,Tue Sep 15 12:41:15 EDT 2020,false,iDuration,nameNotInDictionary,iDuration,i
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceController,tags,@SocialDistanceController
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceBasicModel,tags,@SocialDistanceBasicModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,comb,nameInDictionary,comb,comb
+18,Tue Sep 15 12:41:15 EDT 2020,false,input,nameInDictionary,input,input
+18,Tue Sep 15 12:41:15 EDT 2020,false,2,nestedBlockDepth,2,1
+18,Tue Sep 15 12:41:15 EDT 2020,false,combinations,nameInDictionary,combinations,combinations
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSafeCombinations,functionAssignsGlobal,getSafeCombinations
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_EXHALATION_LEVEL,nameInDictionary,MEDIUM_EXHALATION_LEVEL,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_EXHALATION_LEVEL,nameInDictionary,MEDIUM_EXHALATION_LEVEL,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_EXHALATION_LEVEL,nameInDictionary,MEDIUM_EXHALATION_LEVEL,medium
+18,Tue Sep 15 12:41:15 EDT 2020,false,[InterpolatingMain,duplicateShortTypeName,[InterpolatingMain, main.InterpolatingMain]
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:1 access:public ExhalationLevel:int(public , null),InterpolatingModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:1 access:public ExhalationLevel:int(public , null),AbstractModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:1 access:public ExhalationLevel:int(public , null),DerivedModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:1 access:public ExhalationLevel:int(public , null),BasicModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceModelFactory,tags,@SocialDistanceModelFactory
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:3 access:public ExhalationLevel:int(public , null),Combination,model.DerivedModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:3 access:public ExhalationLevel:int(public , null),Combination,model.InterpolatingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:3 access:public ExhalationLevel:int(public , null),Combination,model.AbstractModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public ExhalationLevel:int(public ,peerCommonProperties,readonly  p-v:3 access:public ExhalationLevel:int(public , null),Combination,model.BasicModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,medianPrev,nameInDictionary,medianPrev,median
+18,Tue Sep 15 12:41:15 EDT 2020,false,medianPrev,nameNotInDictionary,medianPrev,prev
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ControllerFactory,nameInDictionary,factories.ControllerFactory,controller
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ControllerFactory,nameInDictionary,factories.ControllerFactory,factories
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ControllerFactory,nameInDictionary,factories.ControllerFactory,factory
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceUilityTesterMain:->Class,methodAccessModifierUnmatched,getSocialDistanceUilityTesterMain:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.SocialDistancingUtil,nameInDictionary,util.SocialDistancingUtil,social
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.SocialDistancingUtil,nameInDictionary,util.SocialDistancingUtil,distancing
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.SocialDistancingUtil,nameInDictionary,util.SocialDistancingUtil,util
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSafeCombinations:->List,methodAccessModifierMatched,getSafeCombinations:->List,public,[model.InterpolatingModel, util.SocialDistancingUtil],[public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,isInterpolatedSafe,functionAssignsGlobal,isInterpolatedSafe
+18,Tue Sep 15 12:41:15 EDT 2020,false,EXHALATION_LEVEL,nameInDictionary,EXHALATION_LEVEL,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,EXHALATION_LEVEL,nameInDictionary,EXHALATION_LEVEL,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceInterpolatingModel,tags,@SocialDistanceInterpolatingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,sortedNums,nameInDictionary,sortedNums,sorted
+18,Tue Sep 15 12:41:15 EDT 2020,false,sortedNums,nameNotInDictionary,sortedNums,nums
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceClassifierFactory:->Class,methodAccessModifierUnmatched,getSocialDistanceClassifierFactory:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,isInterpolatedSafe:int->boolean,methodAccessModifierUnmatched,isInterpolatedSafe:int->boolean,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancingController:->SocialDistancingController,methodAccessModifierMatched,getSocialDistancingController:->SocialDistancingController,public,[util.MVCUtil],[public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.TestPlayground,nameInDictionary,main.TestPlayground,playground
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.TestPlayground,nameInDictionary,main.TestPlayground,test
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.TestPlayground,nameInDictionary,main.TestPlayground,main
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceMVCInterpolatingMain,tags,@SocialDistanceMVCInterpolatingMain
+18,Tue Sep 15 12:41:15 EDT 2020,false,generateSafeDistancesAndDurations:int->List,methodAccessModifierUnmatched,generateSafeDistancesAndDurations:int->List,public,private,3,[util.SocialDistancingUtil],[private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,startSocialDistancingMVC:->void,methodAccessModifierMatched,startSocialDistancingMVC:->void,public,[main.DerivingMain, main.BasicMain, main.InterpolatingMain],[public, public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ViewFactory,nameInDictionary,factories.ViewFactory,view
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ViewFactory,nameInDictionary,factories.ViewFactory,factories
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories.ViewFactory,nameInDictionary,factories.ViewFactory,factory
+18,Tue Sep 15 12:41:15 EDT 2020,false,[model.InterpolatingModel,duplicateShortTypeName,[model.InterpolatingModel, InterpolatingModel]
+18,Tue Sep 15 12:41:15 EDT 2020,false,sn,nameNotInDictionary,sn,sn
+18,Tue Sep 15 12:41:15 EDT 2020,false,sn,minimumVowelInNameCheck,sn,sn,1
+18,Tue Sep 15 12:41:15 EDT 2020,false,[SocialDistancingUtil,duplicateShortTypeName,[SocialDistancingUtil, util.SocialDistancingUtil]
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.SocialDistancingController,nameInDictionary,controller.SocialDistancingController,distancing
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.SocialDistancingController,nameInDictionary,controller.SocialDistancingController,social
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.SocialDistancingController,nameInDictionary,controller.SocialDistancingController,controller
+18,Tue Sep 15 12:41:15 EDT 2020,false,printGivenAndGeneratedCombinationsDerivedSaftey:->void,methodAccessModifierUnmatched,printGivenAndGeneratedCombinationsDerivedSaftey:->void,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,[],publicMethodsOverride,[]
+18,Tue Sep 15 12:41:15 EDT 2020,false,[ModelFactory,duplicateShortTypeName,[ModelFactory, factories.ModelFactory]
+18,Tue Sep 15 12:41:15 EDT 2020,false,c,nameNotInDictionary,c,c
+18,Tue Sep 15 12:41:15 EDT 2020,false,c,minimumLettersInNameCheck,c,c,2
+18,Tue Sep 15 12:41:15 EDT 2020,false,c,minimumVowelInNameCheck,c,c,1
+18,Tue Sep 15 12:41:15 EDT 2020,false,iDistance,nameInDictionary,iDistance,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,iDistance,nameNotInDictionary,iDistance,i
+18,Tue Sep 15 12:41:15 EDT 2020,false,iDistance,minimumLettersInNameCheck,iDistance,i,2
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:3 access:public Duration:int(public , null),Combination,model.AbstractModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:3 access:public Duration:int(public , null),Combination,model.DerivedModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:3 access:public Duration:int(public , null),Combination,model.BasicModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Duration:int(public ,peerCommonProperties,readonly  p-v:3 access:public Duration:int(public , null),Combination,model.InterpolatingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,printCombination:data.Combination;boolean->void,methodAccessModifierMatched,printCombination:data.Combination;boolean->void,private,[util.SocialDistancingUtil],[private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,@BasicSocialDistanceUtility,tags,@BasicSocialDistanceUtility
+18,Tue Sep 15 12:41:15 EDT 2020,false,i,minimumLettersInNameCheck,i,i,2
+18,Tue Sep 15 12:41:15 EDT 2020,false,i,nameNotInDictionary,i,i
+18,Tue Sep 15 12:41:15 EDT 2020,false,[ConsoleSocialDistancingController,duplicateShortTypeName,[ConsoleSocialDistancingController, controller.ConsoleSocialDistancingController]
+18,Tue Sep 15 12:41:15 EDT 2020,false,isGivenSafe,functionAssignsGlobal,isGivenSafe
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.DerivingMain,nameInDictionary,main.DerivingMain,deriving
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.DerivingMain,nameInDictionary,main.DerivingMain,main
+18,Tue Sep 15 12:41:15 EDT 2020,false,isSafe:->boolean,methodAccessModifierUnmatched,isSafe:->boolean,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,isSafe:->boolean,methodAccessModifierUnmatched,isSafe:->boolean,public,private,3,[model.AbstractModel],[private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldExhalationLevel,nameInDictionary,oldExhalationLevel,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldExhalationLevel,nameInDictionary,oldExhalationLevel,old
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldExhalationLevel,nameInDictionary,oldExhalationLevel,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,[public  interpolateExhalationLevel:int->int,publicMethodsDoNotOverride,[public  interpolateExhalationLevel:int->int, public  interpolate:data.Combination->Combination]
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceUilityTesterMain,tags,@SocialDistanceUilityTesterMain
+18,Tue Sep 15 12:41:15 EDT 2020,false,getDuration:->int,methodAccessModifierMatched,getDuration:->int,public,[model.InterpolatingModel, util.SocialDistancingUtil],[package, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getDuration:->int,methodAccessModifierMatched,getDuration:->int,public,[model.InterpolatingModel, util.SocialDistancingUtil, model.DerivedModel, util.Interpolator],[public, public, public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,isDerivedSafe:int;int;int->boolean,methodAccessModifierMatched,isDerivedSafe:int;int;int->boolean,public,[util.SocialDistancingUtil, model.DerivedModel],[private, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceControllerFactory,tags,@SocialDistanceControllerFactory
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceController:->Class,methodAccessModifierUnmatched,getSocialDistanceController:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.BasicMain,nameInDictionary,main.BasicMain,basic
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.BasicMain,nameInDictionary,main.BasicMain,main
+18,Tue Sep 15 12:41:15 EDT 2020,false,DURATION,nameInDictionary,DURATION,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolate:data.Combination->Combination,methodAccessModifierMatched,interpolate:data.Combination->Combination,public,[model.InterpolatingModel, util.SocialDistancingUtil],[public, package]
+18,Tue Sep 15 12:41:15 EDT 2020,false,isSafe,nameInDictionary,isSafe,safe
+18,Tue Sep 15 12:41:15 EDT 2020,false,isSafe,functionAssignsGlobal,isSafe
+18,Tue Sep 15 12:41:15 EDT 2020,false,isSafe,nameInDictionary,isSafe,is
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.InterpolatingModel,nameInDictionary,model.InterpolatingModel,interpolating
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.InterpolatingModel,nameInDictionary,model.InterpolatingModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,expectedMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,isInterpolatedSafe:int;int->boolean,[@BasicSocialDistanceUtility]
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_DURATION,nameInDictionary,SMALL_DURATION,small
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_DURATION,nameInDictionary,SMALL_DURATION,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.DerivedModel,nameInDictionary,model.DerivedModel,derived
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.DerivedModel,nameInDictionary,model.DerivedModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Combination,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),InferredModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Combination,nameInDictionary,data.Combination,combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Combination,nameInDictionary,data.Combination,data
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Combination,peerCommonProperties,readonly  p-v:1 access:public Duration:int(public , null),InferredModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.Combination,peerCommonProperties,readonly  p-v:1 access:public ExhalationLevel:int(public , null),InferredModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,inputs,nameInDictionary,inputs,inputs
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingView,variableHasInterfaceType,SocialDistancingView,getSocialDistancingView
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingView,variableHasInterfaceType,SocialDistancingView,singleton
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.SafeCombinations,nameInDictionary,data.SafeCombinations,combinations
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.SafeCombinations,nameInDictionary,data.SafeCombinations,safe
+18,Tue Sep 15 12:41:15 EDT 2020,false,data.SafeCombinations,nameInDictionary,data.SafeCombinations,data
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceMVCInterpolatingMain:->Class,methodAccessModifierUnmatched,getSocialDistanceMVCInterpolatingMain:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,listener,nameInDictionary,listener,listener
+18,Tue Sep 15 12:41:15 EDT 2020,false,distanceConts,nameInDictionary,distanceConts,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,distanceConts,nameNotInDictionary,distanceConts,conts
+18,Tue Sep 15 12:41:15 EDT 2020,false,propertyChangeSupport,nameInDictionary,propertyChangeSupport,support
+18,Tue Sep 15 12:41:15 EDT 2020,false,propertyChangeSupport,nameInDictionary,propertyChangeSupport,property
+18,Tue Sep 15 12:41:15 EDT 2020,false,propertyChangeSupport,nameInDictionary,propertyChangeSupport,change
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceViewFactory:->Class,methodAccessModifierUnmatched,getSocialDistanceViewFactory:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,safeCombinations,nameInDictionary,safeCombinations,combinations
+18,Tue Sep 15 12:41:15 EDT 2020,false,safeCombinations,nameInDictionary,safeCombinations,safe
+18,Tue Sep 15 12:41:15 EDT 2020,false,pairs,nameInDictionary,pairs,pairs
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceView,tags,@SocialDistanceView
+18,Tue Sep 15 12:41:15 EDT 2020,false,[model.DerivedModel,duplicateShortTypeName,[model.DerivedModel, DerivedModel]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceControllerFactory:->Class,methodAccessModifierUnmatched,getSocialDistanceControllerFactory:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_DURATION,nameInDictionary,MEDIUM_DURATION,medium
+18,Tue Sep 15 12:41:15 EDT 2020,false,MEDIUM_DURATION,nameInDictionary,MEDIUM_DURATION,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancingView:->SocialDistancingView,methodAccessModifierMatched,getSocialDistancingView:->SocialDistancingView,public,[util.MVCUtil],[public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldSafe,nameInDictionary,oldSafe,safe
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldSafe,nameInDictionary,oldSafe,old
+18,Tue Sep 15 12:41:15 EDT 2020,false,givenComb,nameInDictionary,givenComb,given
+18,Tue Sep 15 12:41:15 EDT 2020,false,givenComb,nameInDictionary,givenComb,comb
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancingModel:->SocialDistancingModel,methodAccessModifierMatched,getSocialDistancingModel:->SocialDistancingModel,public,[util.MVCUtil, controller.ConsoleSocialDistancingController],[public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,isGivenSafe:int;int;int->boolean,methodAccessModifierMatched,isGivenSafe:int;int;int->boolean,public,[model.BasicModel, model.InterpolatingModel, util.SocialDistancingUtil],[public, public, private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,durationConts,nameNotInDictionary,durationConts,conts
+18,Tue Sep 15 12:41:15 EDT 2020,false,durationConts,nameInDictionary,durationConts,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceMVCBasicMain,tags,@SocialDistanceMVCBasicMain
+18,Tue Sep 15 12:41:15 EDT 2020,false,inputType,nameInDictionary,inputType,input
+18,Tue Sep 15 12:41:15 EDT 2020,false,inputType,nameInDictionary,inputType,type
+18,Tue Sep 15 12:41:15 EDT 2020,false,setInput:int;int;int->void,methodAccessModifierMatched,setInput:int;int;int->void,public,[controller.ConsoleSocialDistancingController],[public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factories
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories/ClassifierFactory.java,nameInDictionary,singleton,singleton
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factory
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories/ClassifierFactory.java,nameNotInDictionary,factories.ClassifierFactory,classifier
+18,Tue Sep 15 12:41:15 EDT 2020,false,factories/ClassifierFactory.java,functionAssignsGlobal,getClassifier
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceMVCBasicMain:->Class,methodAccessModifierUnmatched,getSocialDistanceMVCBasicMain:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.InterpolatingMain,nameInDictionary,main.InterpolatingMain,interpolating
+18,Tue Sep 15 12:41:15 EDT 2020,false,main.InterpolatingMain,nameInDictionary,main.InterpolatingMain,main
+18,Tue Sep 15 12:41:15 EDT 2020,false,combination,nameInDictionary,combination,combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,[view.SocialDistancingViewImpl,duplicateShortTypeName,[view.SocialDistancingViewImpl, SocialDistancingViewImpl]
+18,Tue Sep 15 12:41:15 EDT 2020,false,[ViewFactory,duplicateShortTypeName,[ViewFactory, factories.ViewFactory]
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.AbstractModel,nameInDictionary,model.AbstractModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.AbstractModel,nameInDictionary,model.AbstractModel,abstract
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingModel,variableHasInterfaceType,SocialDistancingModel,getSocialDistancingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingModel,variableHasInterfaceType,SocialDistancingModel,singleton
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingModel,variableHasInterfaceType,SocialDistancingModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,SAFE,nameInDictionary,SAFE,safe
+18,Tue Sep 15 12:41:15 EDT 2020,false,util/SocialDistancingUtil.java,tags,@BasicSocialDistanceUtility
+18,Tue Sep 15 12:41:15 EDT 2020,false,[BasicMain,duplicateShortTypeName,[BasicMain, main.BasicMain]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancInferringModel:->Class,methodAccessModifierUnmatched,getSocialDistancInferringModel:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceModelFactory:->Class,methodAccessModifierUnmatched,getSocialDistanceModelFactory:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceView:->Class,methodAccessModifierUnmatched,getSocialDistanceView:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_DURATION,nameInDictionary,LARGE_DURATION,large
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_DURATION,nameInDictionary,LARGE_DURATION,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,median,nameInDictionary,median,median
+18,Tue Sep 15 12:41:15 EDT 2020,false,generateSafeDistancesAndDurations,functionAssignsGlobal,generateSafeDistancesAndDurations
+18,Tue Sep 15 12:41:15 EDT 2020,false,givenCombination,nameInDictionary,givenCombination,given
+18,Tue Sep 15 12:41:15 EDT 2020,false,givenCombination,nameInDictionary,givenCombination,combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolatedExhalationLevel,nameInDictionary,interpolatedExhalationLevel,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolatedExhalationLevel,nameInDictionary,interpolatedExhalationLevel,interpolated
+18,Tue Sep 15 12:41:15 EDT 2020,false,interpolatedExhalationLevel,nameInDictionary,interpolatedExhalationLevel,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,safe,nameInDictionary,safe,safe
+18,Tue Sep 15 12:41:15 EDT 2020,false,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int->boolean,missingMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int->boolean,isInterpolatedSafe:int->boolean,[@BasicSocialDistanceUtility]
+18,Tue Sep 15 12:41:15 EDT 2020,false,userInput,nameInDictionary,userInput,user
+18,Tue Sep 15 12:41:15 EDT 2020,false,userInput,nameInDictionary,userInput,input
+18,Tue Sep 15 12:41:15 EDT 2020,false,[public  getDistance:->int,publicMethodsDoNotOverride,[public  getDistance:->int, public  getDuration:->int, public  getExhalationLevel:->int, public  isSafe:->boolean, public  setInput:int;int;int->void]
+18,Tue Sep 15 12:41:15 EDT 2020,false,[public  getDistance:->int,publicMethodsDoNotOverride,[public  getDistance:->int, public  getDuration:->int, public  getExhalationLevel:->int]
+18,Tue Sep 15 12:41:15 EDT 2020,false,printGeneratedCombinationDerivedSafety:->void,methodAccessModifierUnmatched,printGeneratedCombinationDerivedSafety:->void,public,private,3,[util.SocialDistancingUtil],[private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,[SocialDistancingModel,duplicateShortTypeName,[SocialDistancingModel, model.SocialDistancingModel]
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),AbstractModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),DerivedModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),InterpolatingModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:1 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:1 access:public Distance:int(public , null),BasicModel,data.Combination
+18,Tue Sep 15 12:41:15 EDT 2020,false,ConsoleSocialDistancingController,methodBlockLimit,ConsoleSocialDistancingController,METHOD_DEF[20x1],2,1
+18,Tue Sep 15 12:41:15 EDT 2020,false,largestNum,nameInDictionary,largestNum,num
+18,Tue Sep 15 12:41:15 EDT 2020,false,largestNum,nameInDictionary,largestNum,largest
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.Interpolator,nameNotInDictionary,util.Interpolator,interpolator
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.Interpolator,nameInDictionary,util.Interpolator,util
+18,Tue Sep 15 12:41:15 EDT 2020,false,model/InferredModel.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+18,Tue Sep 15 12:41:15 EDT 2020,false,model/InferredModel.java,nameInDictionary,model.InferredModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,model/InferredModel.java,nameInDictionary,model.InferredModel,inferred
+18,Tue Sep 15 12:41:15 EDT 2020,false,model/InferredModel.java,publicMethodsOverride,[]
+18,Tue Sep 15 12:41:15 EDT 2020,false,distance,nameInDictionary,distance,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,[@SocialDistanceViewFactory,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+18,Tue Sep 15 12:41:15 EDT 2020,false,medianIdx,nameInDictionary,medianIdx,median
+18,Tue Sep 15 12:41:15 EDT 2020,false,medianIdx,nameNotInDictionary,medianIdx,idx
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancingController,functionAssignsGlobal,getSocialDistancingController
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_EXHALATION_LEVEL,nameInDictionary,SMALL_EXHALATION_LEVEL,small
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_EXHALATION_LEVEL,nameInDictionary,SMALL_EXHALATION_LEVEL,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,SMALL_EXHALATION_LEVEL,nameInDictionary,SMALL_EXHALATION_LEVEL,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,duration,nameInDictionary,duration,duration
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldDistance,nameInDictionary,oldDistance,old
+18,Tue Sep 15 12:41:15 EDT 2020,false,oldDistance,nameInDictionary,oldDistance,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.BasicModel,nameInDictionary,model.BasicModel,basic
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.BasicModel,nameInDictionary,model.BasicModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancingView,functionAssignsGlobal,getSocialDistancingView
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.SocialDistancingModel,nameInDictionary,model.SocialDistancingModel,model
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.SocialDistancingModel,nameInDictionary,model.SocialDistancingModel,social
+18,Tue Sep 15 12:41:15 EDT 2020,false,model.SocialDistancingModel,nameInDictionary,model.SocialDistancingModel,distancing
+18,Tue Sep 15 12:41:15 EDT 2020,false,getDistance:->int,methodAccessModifierMatched,getDistance:->int,public,[model.InterpolatingModel, util.SocialDistancingUtil, model.DerivedModel, util.Interpolator],[public, public, public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getDistance:->int,methodAccessModifierMatched,getDistance:->int,public,[model.InterpolatingModel, util.SocialDistancingUtil],[package, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,isInterpolatedSafe:int;int->boolean,methodAccessModifierUnmatched,isInterpolatedSafe:int;int->boolean,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,@SocialDistanceMVCDerivingMain,tags,@SocialDistanceMVCDerivingMain
+18,Tue Sep 15 12:41:15 EDT 2020,false,printSafeDistancesAndDurations:int->void,methodAccessModifierUnmatched,printSafeDistancesAndDurations:int->void,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,propertyChange:java.beans.PropertyChangeEvent->void,methodAccessModifierUnmatched,propertyChange:java.beans.PropertyChangeEvent->void,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingViewImpl,nameInDictionary,view.SocialDistancingViewImpl,view
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingViewImpl,nameNotInDictionary,view.SocialDistancingViewImpl,impl
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingViewImpl,nameInDictionary,view.SocialDistancingViewImpl,distancing
+18,Tue Sep 15 12:41:15 EDT 2020,false,view.SocialDistancingViewImpl,nameInDictionary,view.SocialDistancingViewImpl,social
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.ConsoleSocialDistancingController,nameInDictionary,controller.ConsoleSocialDistancingController,distancing
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.ConsoleSocialDistancingController,nameInDictionary,controller.ConsoleSocialDistancingController,social
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.ConsoleSocialDistancingController,nameInDictionary,controller.ConsoleSocialDistancingController,controller
+18,Tue Sep 15 12:41:15 EDT 2020,false,controller.ConsoleSocialDistancingController,nameInDictionary,controller.ConsoleSocialDistancingController,console
+18,Tue Sep 15 12:41:15 EDT 2020,false,value,nameInDictionary,value,value
+18,Tue Sep 15 12:41:15 EDT 2020,false,isInterpolatedSafe:int;int;int->boolean,methodAccessModifierMatched,isInterpolatedSafe:int;int;int->boolean,public,[model.InterpolatingModel, util.SocialDistancingUtil],[public, private]
+18,Tue Sep 15 12:41:15 EDT 2020,false,singleton,nameInDictionary,singleton,singleton
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_DISTANCE,nameInDictionary,LARGE_DISTANCE,large
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_DISTANCE,nameInDictionary,LARGE_DISTANCE,distance
+18,Tue Sep 15 12:41:15 EDT 2020,false,[data.Constants,duplicateShortTypeName,[data.Constants, Constants]
+18,Tue Sep 15 12:41:15 EDT 2020,false,evt,nameInDictionary,evt,evt
+18,Tue Sep 15 12:41:15 EDT 2020,false,getInstance:->Interpolator,methodAccessModifierMatched,getInstance:->Interpolator,public,[model.InterpolatingModel, util.SocialDistancingUtil],[public, package]
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_EXHALATION_LEVEL,nameInDictionary,LARGE_EXHALATION_LEVEL,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_EXHALATION_LEVEL,nameInDictionary,LARGE_EXHALATION_LEVEL,large
+18,Tue Sep 15 12:41:15 EDT 2020,false,LARGE_EXHALATION_LEVEL,nameInDictionary,LARGE_EXHALATION_LEVEL,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,iExhalationLevel,nameInDictionary,iExhalationLevel,level
+18,Tue Sep 15 12:41:15 EDT 2020,false,iExhalationLevel,nameInDictionary,iExhalationLevel,exhalation
+18,Tue Sep 15 12:41:15 EDT 2020,false,iExhalationLevel,minimumLettersInNameCheck,iExhalationLevel,i,2
+18,Tue Sep 15 12:41:15 EDT 2020,false,iExhalationLevel,nameNotInDictionary,iExhalationLevel,i
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistancDerivingModel:->Class,methodAccessModifierUnmatched,getSocialDistancDerivingModel:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,pair,nameInDictionary,pair,pair
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.MVCUtil,nameInDictionary,util.MVCUtil,mvc
+18,Tue Sep 15 12:41:15 EDT 2020,false,util.MVCUtil,nameInDictionary,util.MVCUtil,util
+18,Tue Sep 15 12:41:15 EDT 2020,false,args,nameInDictionary,args,args
+18,Tue Sep 15 12:41:15 EDT 2020,false,pairsStr,nameInDictionary,pairsStr,pairs
+18,Tue Sep 15 12:41:15 EDT 2020,false,pairsStr,nameNotInDictionary,pairsStr,str
+18,Tue Sep 15 12:41:15 EDT 2020,false,pairsStr,minimumVowelInNameCheck,pairsStr,str,1
+18,Tue Sep 15 12:41:15 EDT 2020,false,getExhalationLevel:->int,methodAccessModifierMatched,getExhalationLevel:->int,public,[model.InterpolatingModel, util.SocialDistancingUtil],[package, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getExhalationLevel:->int,methodAccessModifierMatched,getExhalationLevel:->int,public,[model.InterpolatingModel, util.SocialDistancingUtil, model.DerivedModel, util.Interpolator],[public, public, public, public]
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceMVCInferringMain:->Class,methodAccessModifierUnmatched,getSocialDistanceMVCInferringMain:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSafeCombsByInterpolatedExhalationLevel,functionAssignsGlobal,getSafeCombsByInterpolatedExhalationLevel
+18,Tue Sep 15 12:41:15 EDT 2020,false,isDerivedSafe,functionAssignsGlobal,isDerivedSafe
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:3 access:public Distance:int(public , null),Combination,model.InterpolatingModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:3 access:public Distance:int(public , null),Combination,model.BasicModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:3 access:public Distance:int(public , null),Combination,model.DerivedModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,readonly  p-v:3 access:public Distance:int(public ,peerCommonProperties,readonly  p-v:3 access:public Distance:int(public , null),Combination,model.AbstractModel
+18,Tue Sep 15 12:41:15 EDT 2020,false,getInstance,functionAssignsGlobal,getInstance
+18,Tue Sep 15 12:41:15 EDT 2020,false,getSocialDistanceBasicModel:->Class,methodAccessModifierUnmatched,getSocialDistanceBasicModel:->Class,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,prompt,nameInDictionary,prompt,prompt
+18,Tue Sep 15 12:41:15 EDT 2020,false,addPropertyChangeListener:java.beans.PropertyChangeListener->void,methodAccessModifierUnmatched,addPropertyChangeListener:java.beans.PropertyChangeListener->void,public,None,4,No Referencing Method,No Access Modifiers
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingController,variableHasInterfaceType,SocialDistancingController,singleton
+18,Tue Sep 15 12:41:15 EDT 2020,false,SocialDistancingController,variableHasInterfaceType,SocialDistancingController,getSocialDistancingController
+18,Tue Sep 15 12:41:26 EDT 2020,true,controller/ConsoleSocialDistancingController.java,tags,@SocialDistanceController
+21,Tue Sep 15 12:53:14 EDT 2020,true,factories/ClassifierFactory.java,tags,@SocialDistanceClassifierFactory
+21,Tue Sep 15 12:53:31 EDT 2020,true,factories/ModelFactory.java,tags,@SocialDistanceModelFactory
+21,Tue Sep 15 12:53:36 EDT 2020,true,factories/ViewFactory.java,tags,@SocialDistanceViewFactory
+22,Tue Sep 15 12:58:44 EDT 2020,true,view/SocialDistancingViewImpl.java,tags,@SocialDistanceView
+23,Tue Sep 15 12:59:50 EDT 2020,true,main/DerivingMain.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+23,Tue Sep 15 12:59:50 EDT 2020,true,main/DerivingMain.java,nameInDictionary,main.DerivingMain,main
+23,Tue Sep 15 12:59:50 EDT 2020,true,main/DerivingMain.java,nameInDictionary,main.DerivingMain,deriving
+23,Tue Sep 15 12:59:50 EDT 2020,true,main/DerivingMain.java,nameInDictionary,args,args
+23,Tue Sep 15 12:59:50 EDT 2020,true,main/DerivingMain.java,duplicateShortTypeName,[main.DerivingMain, DerivingMain]
+24,Tue Sep 15 13:48:04 EDT 2020,false,controller/ConsoleSocialDistancingController.java,tags,@SocialDistanceController
+24,Tue Sep 15 13:48:04 EDT 2020,false,view/SocialDistancingViewImpl.java,tags,@SocialDistanceView
+24,Tue Sep 15 13:48:04 EDT 2020,false,factories/ModelFactory.java,tags,@SocialDistanceModelFactory
+24,Tue Sep 15 13:48:04 EDT 2020,false,factories/ViewFactory.java,tags,@SocialDistanceViewFactory
+24,Tue Sep 15 13:48:04 EDT 2020,false,factories/ClassifierFactory.java,tags,@SocialDistanceClassifierFactory
+24,Tue Sep 15 13:48:04 EDT 2020,false,main/TestPlayground.java,nameInDictionary,main.TestPlayground,playground
+24,Tue Sep 15 13:48:04 EDT 2020,false,main/TestPlayground.java,nameInDictionary,main.TestPlayground,test
+24,Tue Sep 15 13:48:04 EDT 2020,false,main/TestPlayground.java,nameInDictionary,main.TestPlayground,main
+24,Tue Sep 15 13:48:04 EDT 2020,false,main/TestPlayground.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+24,Tue Sep 15 13:48:04 EDT 2020,false,main/TestPlayground.java,nameInDictionary,args,args
+24,Tue Sep 15 13:48:04 EDT 2020,false,main/TestPlayground.java,publicMethodsOverride,[]
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factories
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factory
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,nameInDictionary,singleton,singleton
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,duplicateShortTypeName,[ClassifierFactory, factories.ClassifierFactory]
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,nameNotInDictionary,factories.ClassifierFactory,classifier
+25,Tue Sep 15 13:51:50 EDT 2020,true,factories/ClassifierFactory.java,functionAssignsGlobal,getSingleton
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,util
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,social
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,distancing
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenComb,given
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenComb,comb
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,interpolated
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,combination
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,distance,distance
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,duration,duration
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,exhalation
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,level
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,safe
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,combinations
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,given
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,combination
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,result,result
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isSafe,is
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isSafe,safe
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,type,type
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,comb,comb
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,interpolated
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,exhalation
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,level
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,pairs,pairs
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,pairsStr,pairs
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,pair,pair
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,duplicateShortTypeName,[SocialDistancingUtil, util.SocialDistancingUtil]
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameNotInDictionary,i,i
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,minimumLettersInNameCheck,i,i,2
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameNotInDictionary,c,c
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,minimumLettersInNameCheck,c,c,2
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,minimumVowelInNameCheck,c,c,1
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,nameNotInDictionary,pairsStr,str
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,minimumVowelInNameCheck,pairsStr,str,1
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,methodBlockLimit,SocialDistancingUtil,METHOD_DEF[87x1],2,1
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,liberalMagicNumber,10,10
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,isInterpolatedSafe
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,isGivenSafe
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,isDerivedSafe
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,getSafeCombsByInterpolatedExhalationLevel
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,generateSafeDistancesAndDurations
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,expectedMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,isInterpolatedSafe:int;int->boolean,[@BasicSocialDistanceUtility]
+37,Tue Sep 15 15:03:39 EDT 2020,true,util/SocialDistancingUtil.java,missingMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int->boolean,isInterpolatedSafe:int->boolean,[@BasicSocialDistanceUtility]
+38,Tue Sep 15 15:13:20 EDT 2020,false,main/DerivingMain.java,nameInDictionary,main.DerivingMain,deriving
+38,Tue Sep 15 15:13:20 EDT 2020,false,main/DerivingMain.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+38,Tue Sep 15 15:13:20 EDT 2020,false,main/DerivingMain.java,nameInDictionary,args,args
+38,Tue Sep 15 15:13:20 EDT 2020,false,main/DerivingMain.java,duplicateShortTypeName,[main.DerivingMain, DerivingMain]
+38,Tue Sep 15 15:13:20 EDT 2020,false,main/DerivingMain.java,nameInDictionary,main.DerivingMain,main
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factories
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,duplicateShortTypeName,[ClassifierFactory, factories.ClassifierFactory]
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,nameInDictionary,singleton,singleton
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,functionAssignsGlobal,getSingleton
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,nameInDictionary,factories.ClassifierFactory,factory
+38,Tue Sep 15 15:13:20 EDT 2020,false,factories/ClassifierFactory.java,nameNotInDictionary,factories.ClassifierFactory,classifier
+44,Tue Sep 15 15:40:04 EDT 2020,true,main/TestPlayground.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+44,Tue Sep 15 15:40:04 EDT 2020,true,main/TestPlayground.java,nameInDictionary,main.TestPlayground,main
+44,Tue Sep 15 15:40:04 EDT 2020,true,main/TestPlayground.java,nameInDictionary,main.TestPlayground,test
+44,Tue Sep 15 15:40:04 EDT 2020,true,main/TestPlayground.java,nameInDictionary,main.TestPlayground,playground
+44,Tue Sep 15 15:40:04 EDT 2020,true,main/TestPlayground.java,nameInDictionary,args,args
+44,Tue Sep 15 15:40:04 EDT 2020,true,main/TestPlayground.java,publicMethodsOverride,[]
+45,Tue Sep 15 15:41:59 EDT 2020,false,1,minimumVowelInNameCheck,pairsStr,str,1
+45,Tue Sep 15 15:41:59 EDT 2020,false,1,minimumVowelInNameCheck,c,c,1
+45,Tue Sep 15 15:41:59 EDT 2020,false,2,minimumLettersInNameCheck,i,i,2
+45,Tue Sep 15 15:41:59 EDT 2020,false,2,minimumLettersInNameCheck,c,c,2
+45,Tue Sep 15 15:41:59 EDT 2020,false,2,methodBlockLimit,SocialDistancingUtil,METHOD_DEF[87x1],2,1
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,pairsStr,pairs
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,duration,duration
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,exhalation
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,distance,distance
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isSafe,is
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,liberalMagicNumber,10,10
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,social
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,isInterpolatedSafe
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,combination
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenComb,comb
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,pair,pair
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,comb,comb
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,duplicateShortTypeName,[SocialDistancingUtil, util.SocialDistancingUtil]
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,isGivenSafe
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,getSafeCombsByInterpolatedExhalationLevel
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameNotInDictionary,pairsStr,str
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isSafe,safe
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,isDerivedSafe
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,util
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,result,result
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,pairs,pairs
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,interpolated
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,type,type
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,combination
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenComb,given
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,distancing
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,combinations
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,interpolated
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameNotInDictionary,c,c
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,exhalation
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,given
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameNotInDictionary,i,i
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,generateSafeDistancesAndDurations
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,safe
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,level
+45,Tue Sep 15 15:41:59 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,level
+45,Tue Sep 15 15:41:59 EDT 2020,false,[@BasicSocialDistanceUtility],expectedMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,isInterpolatedSafe:int;int->boolean,[@BasicSocialDistanceUtility]
+45,Tue Sep 15 15:41:59 EDT 2020,false,[@BasicSocialDistanceUtility],missingMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int->boolean,isInterpolatedSafe:int->boolean,[@BasicSocialDistanceUtility]
+48,Tue Sep 15 15:54:42 EDT 2020,true,main/TestPlayground.java,tags,@SocialDistanceUilityTesterMain
+48,Tue Sep 15 15:55:34 EDT 2020,true,util/SocialDistancingUtil.java,tags,@BasicSocialDistanceUtility
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,util
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,social
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,distancing
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenComb,given
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenComb,comb
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,interpolated
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,combination
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,distance,distance
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,duration,duration
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,exhalation
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,level
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,safe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,combinations
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,given
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,combination
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,result,result
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,coefficient,coefficient
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isSafe,is
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isSafe,safe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,comb,comb
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,type,type
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isDerivedSafe,is
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isDerivedSafe,derived
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isDerivedSafe,safe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isInferredSafe,is
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isInferredSafe,inferred
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,isInferredSafe,safe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,interpolated
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,exhalation
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,level
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,pairs,pairs
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,pairsStr,pairs
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,pair,pair
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,correct,correct
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,derivedSafe,derived
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,derivedSafe,safe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,inferredSafe,inferred
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameInDictionary,inferredSafe,safe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,duplicateShortTypeName,[SocialDistancingUtil, util.SocialDistancingUtil]
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameNotInDictionary,i,i
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,minimumLettersInNameCheck,i,i,2
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameNotInDictionary,c,c
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,minimumLettersInNameCheck,c,c,2
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,minimumVowelInNameCheck,c,c,1
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,nameNotInDictionary,pairsStr,str
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,minimumVowelInNameCheck,pairsStr,str,1
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,methodBlockLimit,SocialDistancingUtil,METHOD_DEF[88x1],2,1
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,liberalMagicNumber,10,10
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,isInterpolatedSafe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,isGivenSafe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,isDerivedSafe
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,getSafeCombsByInterpolatedExhalationLevel
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,generateSafeDistancesAndDurations
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,functionAssignsGlobal,compareSafetyComputations
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,expectedMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,isInterpolatedSafe:int;int->boolean,[@BasicSocialDistanceUtility]
+49,Tue Sep 15 16:01:36 EDT 2020,true,util/SocialDistancingUtil.java,missingMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int->boolean,isInterpolatedSafe:int->boolean,[@BasicSocialDistanceUtility]
+50,Tue Sep 15 16:08:04 EDT 2020,false,main/TestPlayground.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+50,Tue Sep 15 16:08:04 EDT 2020,false,main/TestPlayground.java,tags,@SocialDistanceUilityTesterMain
+50,Tue Sep 15 16:08:12 EDT 2020,true,controller/ConsoleSocialDistancingController.java,tags,@SocialDistanceController
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,controller
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,console
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,social
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,controller.ConsoleSocialDistancingController,distancing
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,prompt,prompt
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,DISTANCE,distance
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,DURATION,duration
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,EXHALATION_LEVEL,exhalation
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,EXHALATION_LEVEL,level
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,inputs,inputs
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,inputType,input
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,inputType,type
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,userInput,user
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,userInput,input
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameInDictionary,input,input
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,duplicateShortTypeName,[ConsoleSocialDistancingController, controller.ConsoleSocialDistancingController]
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nameNotInDictionary,sn,sn
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,minimumVowelInNameCheck,sn,sn,1
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,methodBlockLimit,ConsoleSocialDistancingController,METHOD_DEF[25x1],2,1
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,nestedBlockDepth,2,1
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,bulkierThen,59.0,15.0,3.933333333333333
+56,Tue Sep 15 16:28:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,publicMethodsOverride,[]
+57,Tue Sep 15 16:32:30 EDT 2020,false,controller/ConsoleSocialDistancingController.java,tags,@SocialDistanceController
+57,Tue Sep 15 16:32:30 EDT 2020,false,1,minimumVowelInNameCheck,pairsStr,str,1
+57,Tue Sep 15 16:32:30 EDT 2020,false,1,minimumVowelInNameCheck,c,c,1
+57,Tue Sep 15 16:32:30 EDT 2020,false,2,methodBlockLimit,SocialDistancingUtil,METHOD_DEF[88x1],2,1
+57,Tue Sep 15 16:32:30 EDT 2020,false,2,minimumLettersInNameCheck,i,i,2
+57,Tue Sep 15 16:32:30 EDT 2020,false,2,minimumLettersInNameCheck,c,c,2
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,pairsStr,pairs
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,derivedSafe,safe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,inferredSafe,safe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,distance,distance
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,liberalMagicNumber,10,10
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,social
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,isInterpolatedSafe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,combination
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenComb,comb
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,pair,pair
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,coefficient,coefficient
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,correct,correct
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,inferredSafe,inferred
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,duplicateShortTypeName,[SocialDistancingUtil, util.SocialDistancingUtil]
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,isGivenSafe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isSafe,safe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,util
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,result,result
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,interpolated
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isInferredSafe,is
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,derivedSafe,derived
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,combination
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,util.SocialDistancingUtil,distancing
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,combinations
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedCombination,interpolated
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isInferredSafe,safe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameNotInDictionary,c,c
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,exhalation
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameNotInDictionary,i,i
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,generateSafeDistancesAndDurations
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,exhalationLevel,level
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,compareSafetyComputations
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,duration,duration
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,exhalation
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isInferredSafe,inferred
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isSafe,is
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isDerivedSafe,is
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,comb,comb
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isDerivedSafe,safe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,tags,@BasicSocialDistanceUtility
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,getSafeCombsByInterpolatedExhalationLevel
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameNotInDictionary,pairsStr,str
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,functionAssignsGlobal,isDerivedSafe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,pairs,pairs
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,type,type
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenComb,given
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,expectedTypes,[@SocialDistanceViewFactory, @SocialDistancDerivingModel, @SocialDistanceMVCInferringMain, @BasicSocialDistanceUtility, @SocialDistanceInterpolatingModel, @SocialDistanceBasicModel, @SocialDistanceController, @SocialDistanceView, @SocialDistanceMVCInterpolatingMain, @SocialDistanceUilityTesterMain, @SocialDistanceMVCBasicMain, @SocialDistanceControllerFactory, @SocialDistanceMVCDerivingMain, @SocialDistanceClassifierFactory, @SocialDistanceModelFactory]
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,isDerivedSafe,derived
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,givenCombination,given
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,safeCombinations,safe
+57,Tue Sep 15 16:32:30 EDT 2020,false,util/SocialDistancingUtil.java,nameInDictionary,interpolatedExhalationLevel,level
+57,Tue Sep 15 16:32:30 EDT 2020,false,main/TestPlayground.java,nameInDictionary,main.TestPlayground,playground
+57,Tue Sep 15 16:32:30 EDT 2020,false,main/TestPlayground.java,nameInDictionary,main.TestPlayground,test
+57,Tue Sep 15 16:32:30 EDT 2020,false,main/TestPlayground.java,nameInDictionary,main.TestPlayground,main
+57,Tue Sep 15 16:32:30 EDT 2020,false,main/TestPlayground.java,nameInDictionary,args,args
+57,Tue Sep 15 16:32:30 EDT 2020,false,main/TestPlayground.java,publicMethodsOverride,[]
+57,Tue Sep 15 16:32:30 EDT 2020,false,[@BasicSocialDistanceUtility],expectedMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,isInterpolatedSafe:int;int->boolean,[@BasicSocialDistanceUtility]
+57,Tue Sep 15 16:32:30 EDT 2020,false,[@BasicSocialDistanceUtility],missingMethodCall,@BasicSocialDistanceUtility!isInterpolatedSafe:int;int->boolean,isInterpolatedSafe:int->boolean,[@BasicSocialDistanceUtility]
+58,Tue Sep 15 16:34:33 EDT 2020,true,controller/ConsoleSocialDistancingController.java,tags,@SocialDistanceController

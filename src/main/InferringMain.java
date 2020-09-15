@@ -1,14 +1,14 @@
 package main;
 
 import factories.ModelFactory;
-import model.BasicModel;
+import model.InferredModel;
 import util.MvcUtil;
 
-public class BasicMain {
-
+public class InferringMain {
+	
 	public static void main(final String[] args) {
-		ModelFactory.setSocialDistancingModel(new BasicModel());
+		ModelFactory.setSocialDistancingModel(new InferredModel());
 		MvcUtil.startSocialDistancingMvc();
 	}
-
+	
 }

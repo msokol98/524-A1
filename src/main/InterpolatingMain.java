@@ -2,13 +2,13 @@ package main;
 
 import factories.ModelFactory;
 import model.InterpolatingModel;
-import util.MVCUtil;
+import util.MvcUtil;
 
 public class InterpolatingMain {
 	
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		ModelFactory.setSocialDistancingModel(new InterpolatingModel());
-		MVCUtil.startSocialDistancingMVC();
+		MvcUtil.startSocialDistancingMvc();
 	}
 
 }

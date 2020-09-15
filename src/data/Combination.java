@@ -6,10 +6,10 @@ public class Combination {
 	private int duration;
 	private int exhalationLevel;
 	
-	public Combination(int distance, int duration, int exhalationLevel) {
-		this.distance = distance;
-		this.duration = duration;
-		this.exhalationLevel = exhalationLevel;
+	public Combination(final int aDistance, final int aDuration, final int aExhalationLevel) {
+		distance = aDistance;
+		duration = aDuration;
+		exhalationLevel = aExhalationLevel;
 	}
 
 	public int getDistance() {

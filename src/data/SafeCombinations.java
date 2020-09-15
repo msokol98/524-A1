@@ -9,8 +9,9 @@ public class SafeCombinations {
 	private static List<Combination> combinations;
 		
 	public static List<Combination> getSafeCombinations() {
-		if(combinations == null)
+		if(combinations == null) {
 			generateCombinations();
+		}
 		return combinations.stream().collect(toList());
 	}
 	
