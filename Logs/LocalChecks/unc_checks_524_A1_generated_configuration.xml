@@ -1,0 +1,881 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@SocialDistanceViewFactory,
+			@SocialDistancDerivingModel,
+			@SocialDistanceMVCInferringMain,
+			@SocialDistanceInterpolatingModel,
+			@BasicSocialDistanceUtility,
+			@SocialDistanceBasicModel,
+			@SocialDistanceController,
+			@SocialDistanceView,
+			@SocialDistanceMVCInterpolatingMain,
+			@SocialDistanceUilityTesterMain,
+			@SocialDistanceControllerFactory,
+			@SocialDistanceMVCDerivingMain,
+			@SocialDistanceMVCBasicMain,
+			@SocialDistanceClassifierFactory,
+			@SocialDistanceModelFactory,
+			@SocialDistancInferringModel,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedProperties" value="
+			ExhalationLevel:int,
+			Duration:int,
+			Distance:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedSignatures" value="
+			isSafe:->boolean,
+			setInput:int;int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedCalls" value="
+			@BasicSocialDistanceUtility!isInterpolatedSafe:int;int;int->boolean,
+			@BasicSocialDistanceUtility!isGivenSafe:int;int;int->boolean,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceInterpolatingModel!getDistance:*->.*,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceInterpolatingModel!getDuration:*->.*,
+			java.util.List!add:Object->boolean,
+			java.util.Optional!filter:java.util.function.Predicate->Optional,
+			@SocialDistanceInterpolatingModel!getExhalationLevel:*->.*,
+			java.util.List!size:->int,
+			java.util.Optional!isPresent:->boolean,
+			java.util.Optional!stream:->Stream,
+			java.util.List!get:int->Object,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*MEDIUM_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DISTANCE.*,
+			isSafe:->boolean#.*LARGE_DISTANCE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*MEDIUM_DURATION.*,
+			isSafe:->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*LARGE_DURATION.*,
+			isSafe:->boolean#.*LARGE_DISTANCE.*,
+			isSafe:->boolean#.*MEDIUM_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceInterpolatingModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*MEDIUM_DURATION.*,
+			isSafe:->boolean#.*LARGE_DURATION.*,
+			isSafe:->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancDerivingModel"/>
+		<property name="expectedProperties" value="
+			ExhalationLevel:int,
+			Duration:int,
+			Distance:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancDerivingModel"/>
+		<property name="expectedSignatures" value="
+			isSafe:->boolean,
+			setInput:int;int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancDerivingModel"/>
+		<property name="expectedCalls" value="
+			java.util.List!add:Object->boolean,
+			@BasicSocialDistanceUtility!isDerivedSafe:int;int;int->boolean,
+			java.util.Optional!filter:java.util.function.Predicate->Optional,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceInterpolatingModel!getExhalationLevel:*->.*,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceInterpolatingModel!getDistance:*->.*,
+			java.util.Optional!isPresent:->boolean,
+			java.util.Optional!stream:->Stream,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceInterpolatingModel!getDuration:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancDerivingModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*MEDIUM_DURATION.*,
+			isSafe:->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*LARGE_DURATION.*,
+			isSafe:->boolean#.*LARGE_DISTANCE.*,
+			isSafe:->boolean#.*MEDIUM_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceModelFactory"/>
+		<property name="expectedProperties" value="
+			Singleton:.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCInterpolatingMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCInterpolatingMain"/>
+		<property name="expectedCalls" value="
+			java.util.Scanner!nextDouble:->double,
+			@SocialDistanceInterpolatingModel!addPropertyChangeListener:*->.*,
+			@SocialDistanceModelFactory!getSingleton:->SocialDistancingModel,
+			java.io.PrintStream!println:*->.*,
+			@SocialDistanceInterpolatingModel!setInput:*->.*,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceViewFactory!getSingleton:->SocialDistancingView,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceControllerFactory!getSingleton:->SocialDistancingController,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceModelFactory!setSocialDistancingModel:model.SocialDistancingModel->void,
+			@SocialDistanceController!processInput:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCInferringMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCInferringMain"/>
+		<property name="expectedCalls" value="
+			java.util.Scanner!nextDouble:->double,
+			@SocialDistanceInterpolatingModel!addPropertyChangeListener:*->.*,
+			@SocialDistanceModelFactory!getSingleton:->SocialDistancingModel,
+			java.io.PrintStream!println:*->.*,
+			@SocialDistanceInterpolatingModel!setInput:*->.*,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceViewFactory!getSingleton:->SocialDistancingView,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceControllerFactory!getSingleton:->SocialDistancingController,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceModelFactory!setSocialDistancingModel:model.SocialDistancingModel->void,
+			@SocialDistanceController!processInput:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceControllerFactory"/>
+		<property name="expectedProperties" value="
+			Singleton:.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedSignatures" value="
+			printGivenAndGeneratedCombinationsInferredSafety:->void,
+			isInterpolatedSafe:int->boolean,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void,
+			printGeneratedCombinationInferredSafety:->void,
+			generateSafeDistancesAndDurations:int->List,
+			isInterpolatedSafe:int;int->boolean,
+			isGivenSafe:int;int;int->boolean,
+			isDerivedSafe:int;int;int->boolean,
+			printSafeDistancesAndDurations:int->void,
+			isInferredSafe:int;int;int->boolean,
+			printGeneratedCombinationDerivedSafety:->void,
+			compareSafetyComputations:->int,
+			isInterpolatedSafe:int;int;int->boolean,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp524f20.assignment1.WekaUtil!predictString:weka.classifiers.Classifier;String[];[D;String;String[]->String,
+			java.lang.String!contentEquals:*->.*,
+			@SocialDistanceInterpolatingModel!getDistance:*->.*,
+			java.lang.String!equals:Object->boolean,
+			@SocialDistanceClassifierFactory!getSingleton:->Classifier,
+			@SocialDistanceInterpolatingModel!getDuration:*->.*,
+			java.util.List!add:Object->boolean,
+			java.io.PrintStream!println:*->.*,
+			java.util.Optional!filter:java.util.function.Predicate->Optional,
+			@SocialDistanceInterpolatingModel!getExhalationLevel:*->.*,
+			gradingTools.comp524f20.assignment1.WekaUtil!buildTreeModel:weka.classifiers.Classifier;String->void,
+			java.util.List!size:->int,
+			java.util.Optional!isPresent:->boolean,
+			java.util.Optional!stream:->Stream,
+			java.lang.Math!random:->double,
+			java.util.List!get:int->Object,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int;int->boolean#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int;int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int;int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int;int->boolean#.*MEDIUM_DISTANCE.*,
+			isInterpolatedSafe:int;int;int->boolean#.*SMALL_DISTANCE.*,
+			isInterpolatedSafe:int;int;int->boolean#.*LARGE_DISTANCE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int;int->boolean#.*MEDIUM_DURATION.*,
+			isInterpolatedSafe:int;int;int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int;int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int;int->boolean#.*LARGE_DURATION.*,
+			isInterpolatedSafe:int;int;int->boolean#.*LARGE_DISTANCE.*,
+			isInterpolatedSafe:int;int;int->boolean#.*MEDIUM_DISTANCE.*,
+			isInterpolatedSafe:int;int;int->boolean#.*SMALL_DISTANCE.*,
+			isInterpolatedSafe:int;int;int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int;int->boolean#.*MEDIUM_DURATION.*,
+			isInterpolatedSafe:int;int;int->boolean#.*LARGE_DURATION.*,
+			isInterpolatedSafe:int;int;int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int->boolean#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_DISTANCE.*,
+			isInterpolatedSafe:int;int->boolean#.*SMALL_DISTANCE.*,
+			isInterpolatedSafe:int;int->boolean#.*LARGE_DISTANCE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_DURATION.*,
+			isInterpolatedSafe:int;int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int;int->boolean#.*LARGE_DURATION.*,
+			isInterpolatedSafe:int;int->boolean#.*LARGE_DISTANCE.*,
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_DISTANCE.*,
+			isInterpolatedSafe:int;int->boolean#.*SMALL_DISTANCE.*,
+			isInterpolatedSafe:int;int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int;int->boolean#.*MEDIUM_DURATION.*,
+			isInterpolatedSafe:int;int->boolean#.*LARGE_DURATION.*,
+			isInterpolatedSafe:int;int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*MEDIUM_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*MEDIUM_DISTANCE.*,
+			isInterpolatedSafe:int->boolean#.*SMALL_DISTANCE.*,
+			isInterpolatedSafe:int->boolean#.*LARGE_DISTANCE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*MEDIUM_DURATION.*,
+			isInterpolatedSafe:int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isInterpolatedSafe:int->boolean#.*LARGE_DURATION.*,
+			isInterpolatedSafe:int->boolean#.*LARGE_DISTANCE.*,
+			isInterpolatedSafe:int->boolean#.*MEDIUM_DISTANCE.*,
+			isInterpolatedSafe:int->boolean#.*SMALL_DISTANCE.*,
+			isInterpolatedSafe:int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isInterpolatedSafe:int->boolean#.*MEDIUM_DURATION.*,
+			isInterpolatedSafe:int->boolean#.*LARGE_DURATION.*,
+			isInterpolatedSafe:int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isGivenSafe:int;int;int->boolean#.*MEDIUM_DURATION.*,
+			isGivenSafe:int;int;int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isGivenSafe:int;int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isGivenSafe:int;int;int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isGivenSafe:int;int;int->boolean#.*LARGE_DURATION.*,
+			isGivenSafe:int;int;int->boolean#.*LARGE_DISTANCE.*,
+			isGivenSafe:int;int;int->boolean#.*MEDIUM_DISTANCE.*,
+			isGivenSafe:int;int;int->boolean#.*SMALL_DISTANCE.*,
+			isGivenSafe:int;int;int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			isDerivedSafe:int;int;int->boolean#.*MEDIUM_DURATION.*,
+			isDerivedSafe:int;int;int->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isDerivedSafe:int;int;int->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isDerivedSafe:int;int;int->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isDerivedSafe:int;int;int->boolean#.*LARGE_DURATION.*,
+			isDerivedSafe:int;int;int->boolean#.*LARGE_DISTANCE.*,
+			isDerivedSafe:int;int;int->boolean#.*MEDIUM_DISTANCE.*,
+			isDerivedSafe:int;int;int->boolean#.*SMALL_DISTANCE.*,
+			isDerivedSafe:int;int;int->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			printGeneratedCombinationDerivedSafety:->void#.*MEDIUM_DURATION.*,
+			printGeneratedCombinationDerivedSafety:->void#.*LARGE_EXHALATION_LEVEL.*,
+			printGeneratedCombinationDerivedSafety:->void#.*MEDIUM_EXHALATION_LEVEL.*,
+			printGeneratedCombinationDerivedSafety:->void#.*SMALL_EXHALATION_LEVEL.*,
+			printGeneratedCombinationDerivedSafety:->void#.*LARGE_DURATION.*,
+			printGeneratedCombinationDerivedSafety:->void#.*LARGE_DISTANCE.*,
+			printGeneratedCombinationDerivedSafety:->void#.*MEDIUM_DISTANCE.*,
+			printGeneratedCombinationDerivedSafety:->void#.*SMALL_DISTANCE.*,
+			printGeneratedCombinationDerivedSafety:->void#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*MEDIUM_DURATION.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*LARGE_EXHALATION_LEVEL.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*MEDIUM_EXHALATION_LEVEL.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*SMALL_EXHALATION_LEVEL.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*LARGE_DURATION.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*LARGE_DISTANCE.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*MEDIUM_DISTANCE.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*SMALL_DISTANCE.*,
+			printGivenAndGeneratedCombinationsDerivedSafety:->void#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*MEDIUM_DURATION.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*LARGE_EXHALATION_LEVEL.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*MEDIUM_EXHALATION_LEVEL.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*SMALL_EXHALATION_LEVEL.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*LARGE_DURATION.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*LARGE_DISTANCE.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*MEDIUM_DISTANCE.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*SMALL_DISTANCE.*,
+			printGivenAndGeneratedCombinationsInferredSafety:->void#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			generateSafeDistancesAndDurations:int->List#.*LARGE_EXHALATION_LEVEL.*,
+			generateSafeDistancesAndDurations:int->List#.*SMALL_EXHALATION_LEVEL.*,
+			generateSafeDistancesAndDurations:int->List#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			generateSafeDistancesAndDurations:int->List#.*MEDIUM_DURATION.*,
+			generateSafeDistancesAndDurations:int->List#.*LARGE_EXHALATION_LEVEL.*,
+			generateSafeDistancesAndDurations:int->List#.*MEDIUM_EXHALATION_LEVEL.*,
+			generateSafeDistancesAndDurations:int->List#.*SMALL_EXHALATION_LEVEL.*,
+			generateSafeDistancesAndDurations:int->List#.*LARGE_DURATION.*,
+			generateSafeDistancesAndDurations:int->List#.*LARGE_DISTANCE.*,
+			generateSafeDistancesAndDurations:int->List#.*MEDIUM_DISTANCE.*,
+			generateSafeDistancesAndDurations:int->List#.*SMALL_DISTANCE.*,
+			generateSafeDistancesAndDurations:int->List#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			generateSafeDistancesAndDurations:int->List#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			printSafeDistancesAndDurations:int->void#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			printSafeDistancesAndDurations:int->void#.*LARGE_EXHALATION_LEVEL.*,
+			printSafeDistancesAndDurations:int->void#.*SMALL_EXHALATION_LEVEL.*,
+			printSafeDistancesAndDurations:int->void#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			printSafeDistancesAndDurations:int->void#.*MEDIUM_DURATION.*,
+			printSafeDistancesAndDurations:int->void#.*LARGE_EXHALATION_LEVEL.*,
+			printSafeDistancesAndDurations:int->void#.*MEDIUM_EXHALATION_LEVEL.*,
+			printSafeDistancesAndDurations:int->void#.*SMALL_EXHALATION_LEVEL.*,
+			printSafeDistancesAndDurations:int->void#.*LARGE_DURATION.*,
+			printSafeDistancesAndDurations:int->void#.*LARGE_DISTANCE.*,
+			printSafeDistancesAndDurations:int->void#.*MEDIUM_DISTANCE.*,
+			printSafeDistancesAndDurations:int->void#.*SMALL_DISTANCE.*,
+			printSafeDistancesAndDurations:int->void#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			compareSafetyComputations:->int#.*MEDIUM_DISTANCE.*,
+			compareSafetyComputations:->int#.*MEDIUM_DURATION.*,
+			compareSafetyComputations:->int#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BasicSocialDistanceUtility"/>
+		<property name="expectedReferences" value="
+			compareSafetyComputations:->int#.*MEDIUM_DURATION.*,
+			compareSafetyComputations:->int#.*LARGE_EXHALATION_LEVEL.*,
+			compareSafetyComputations:->int#.*MEDIUM_EXHALATION_LEVEL.*,
+			compareSafetyComputations:->int#.*SMALL_EXHALATION_LEVEL.*,
+			compareSafetyComputations:->int#.*LARGE_DURATION.*,
+			compareSafetyComputations:->int#.*LARGE_DISTANCE.*,
+			compareSafetyComputations:->int#.*MEDIUM_DISTANCE.*,
+			compareSafetyComputations:->int#.*SMALL_DISTANCE.*,
+			compareSafetyComputations:->int#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceClassifierFactory"/>
+		<property name="expectedProperties" value="
+			Singleton:weka.classifiers.Classifier,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceClassifierFactory"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp524f20.assignment1.WekaUtil!buildTreeModel:weka.classifiers.Classifier;String->void,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceBasicModel"/>
+		<property name="expectedProperties" value="
+			ExhalationLevel:int,
+			Duration:int,
+			Distance:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceBasicModel"/>
+		<property name="expectedSignatures" value="
+			isSafe:->boolean,
+			setInput:int;int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceBasicModel"/>
+		<property name="expectedCalls" value="
+			java.util.List!add:Object->boolean,
+			java.util.Optional!filter:java.util.function.Predicate->Optional,
+			@BasicSocialDistanceUtility!isGivenSafe:int;int;int->boolean,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceInterpolatingModel!getExhalationLevel:*->.*,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceInterpolatingModel!getDistance:*->.*,
+			java.util.Optional!isPresent:->boolean,
+			java.util.Optional!stream:->Stream,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceInterpolatingModel!getDuration:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceBasicModel"/>
+		<property name="expectedReferences" value="
+			isSafe:->boolean#.*MEDIUM_DURATION.*,
+			isSafe:->boolean#.*LARGE_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*MEDIUM_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*SMALL_EXHALATION_LEVEL.*,
+			isSafe:->boolean#.*LARGE_DURATION.*,
+			isSafe:->boolean#.*LARGE_DISTANCE.*,
+			isSafe:->boolean#.*MEDIUM_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DISTANCE.*,
+			isSafe:->boolean#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancInferringModel"/>
+		<property name="expectedProperties" value="
+			ExhalationLevel:int,
+			Duration:int,
+			Distance:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancInferringModel"/>
+		<property name="expectedSignatures" value="
+			isSafe:->boolean,
+			setInput:int;int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistancInferringModel"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp524f20.assignment1.WekaUtil!predictString:weka.classifiers.Classifier;String[];[D;String;String[]->String,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			gradingTools.comp524f20.assignment1.WekaUtil!buildTreeModel:weka.classifiers.Classifier;String->void,
+			java.lang.String!equals:Object->boolean,
+			@SocialDistanceClassifierFactory!getSingleton:->Classifier,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@BasicSocialDistanceUtility!isInferredSafe:int;int;int->boolean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceViewFactory"/>
+		<property name="expectedProperties" value="
+			Singleton:.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceView"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceView"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceView"/>
+		<property name="expectedCalls" value="
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			java.io.PrintStream!println:*->.*,
+			java.beans.PropertyChangeEvent!toString:->String,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceView"/>
+		<property name="expectedReferences" value="
+			propertyChange:java.beans.PropertyChangeEvent->void#.*SAFE.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceController"/>
+		<property name="expectedSignatures" value="
+			processInput:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceController"/>
+		<property name="expectedCalls" value="
+			java.util.Scanner!nextDouble:->double,
+			@SocialDistanceModelFactory!getSingleton:->SocialDistancingModel,
+			java.io.PrintStream!println:*->.*,
+			@SocialDistanceInterpolatingModel!setInput:*->.*,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedCalls" value="
+			@BasicSocialDistanceUtility!printGivenAndGeneratedCombinationsDerivedSafety:->void,
+			@BasicSocialDistanceUtility!generateSafeDistancesAndDurations:int->List,
+			java.lang.String!contentEquals:*->.*,
+			java.lang.String!equals:Object->boolean,
+			@SocialDistanceClassifierFactory!getSingleton:->Classifier,
+			@SocialDistanceInterpolatingModel!getDuration:*->.*,
+			java.util.List!add:Object->boolean,
+			@SocialDistanceInterpolatingModel!getExhalationLevel:*->.*,
+			java.util.List!size:->int,
+			java.util.List!get:int->Object,
+			gradingTools.comp524f20.assignment1.WekaUtil!predictString:weka.classifiers.Classifier;String[];[D;String;String[]->String,
+			@BasicSocialDistanceUtility!printSafeDistancesAndDurations:int->void,
+			@SocialDistanceInterpolatingModel!getDistance:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@BasicSocialDistanceUtility!isDerivedSafe:int;int;int->boolean,
+			@BasicSocialDistanceUtility!compareSafetyComputations:->int,
+			java.util.Optional!filter:java.util.function.Predicate->Optional,
+			@BasicSocialDistanceUtility!printGivenAndGeneratedCombinationsInferredSafety:->void,
+			@BasicSocialDistanceUtility!printGeneratedCombinationDerivedSafety:->void,
+			@BasicSocialDistanceUtility!printGeneratedCombinationInferredSafety:->void,
+			gradingTools.comp524f20.assignment1.WekaUtil!buildTreeModel:weka.classifiers.Classifier;String->void,
+			java.util.Optional!isPresent:->boolean,
+			java.util.Optional!stream:->Stream,
+			java.lang.Math!random:->double,
+			@BasicSocialDistanceUtility!isInferredSafe:int;int;int->boolean,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MAX_VALUE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MEDIUM_DISTANCE.*,
+			main:String[]->void#.*MEDIUM_DURATION.*,
+			main:String[]->void#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*LARGE_EXHALATION_LEVEL.*,
+			main:String[]->void#.*SMALL_EXHALATION_LEVEL.*,
+			main:String[]->void#.*MEDIUM_EXHALATION_LEVEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceUilityTesterMain"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MEDIUM_DURATION.*,
+			main:String[]->void#.*LARGE_EXHALATION_LEVEL.*,
+			main:String[]->void#.*MEDIUM_EXHALATION_LEVEL.*,
+			main:String[]->void#.*SMALL_EXHALATION_LEVEL.*,
+			main:String[]->void#.*LARGE_DURATION.*,
+			main:String[]->void#.*LARGE_DISTANCE.*,
+			main:String[]->void#.*MEDIUM_DISTANCE.*,
+			main:String[]->void#.*SMALL_DISTANCE.*,
+			main:String[]->void#.*SMALL_DURATION.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCDerivingMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCDerivingMain"/>
+		<property name="expectedCalls" value="
+			java.util.Scanner!nextDouble:->double,
+			@SocialDistanceInterpolatingModel!addPropertyChangeListener:*->.*,
+			@SocialDistanceModelFactory!getSingleton:->SocialDistancingModel,
+			java.io.PrintStream!println:*->.*,
+			@SocialDistanceInterpolatingModel!setInput:*->.*,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceViewFactory!getSingleton:->SocialDistancingView,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceControllerFactory!getSingleton:->SocialDistancingController,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceModelFactory!setSocialDistancingModel:model.SocialDistancingModel->void,
+			@SocialDistanceController!processInput:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCBasicMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SocialDistanceMVCBasicMain"/>
+		<property name="expectedCalls" value="
+			java.util.Scanner!nextDouble:->double,
+			@SocialDistanceInterpolatingModel!addPropertyChangeListener:*->.*,
+			@SocialDistanceModelFactory!getSingleton:->SocialDistancingModel,
+			java.io.PrintStream!println:*->.*,
+			@SocialDistanceInterpolatingModel!setInput:*->.*,
+			java.beans.PropertyChangeSupport!firePropertyChange:*->.*,
+			@SocialDistanceViewFactory!getSingleton:->SocialDistancingView,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:*->.*,
+			@SocialDistanceControllerFactory!getSingleton:->SocialDistancingController,
+			@SocialDistanceInterpolatingModel!isSafe:->boolean,
+			@SocialDistanceModelFactory!setSocialDistancingModel:model.SocialDistancingModel->void,
+			@SocialDistanceController!processInput:*->.*,
+		"/>
+	</module>

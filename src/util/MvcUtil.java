@@ -1,8 +1,8 @@
 package util;
 
-import factories.ControllerFactory;
-import factories.ModelFactory;
-import factories.ViewFactory;
+import factory.ControllerFactory;
+import factory.ModelFactory;
+import factory.ViewFactory;
 
 public class MvcUtil {
 	

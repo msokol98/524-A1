@@ -2,8 +2,14 @@ package data;
 
 import java.util.ArrayList;
 import java.util.List;
-import static java.util.stream.Collectors.toList;
 
+import pojo.Combination;
+
+import static java.util.stream.Collectors.toList;
+/**
+ * This class contains all of the concrete, safe combinations
+ * as outlined in Table 2 of the assignment.
+ */
 public class SafeCombinations {
 	
 	private static List<Combination> combinations;

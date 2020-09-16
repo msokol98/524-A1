@@ -1,56 +1,48 @@
 package controller;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
-import factories.ModelFactory;
+import factory.ModelFactory;
 
 public class ConsoleSocialDistancingController implements SocialDistancingController {
 	
-	private final Map<String, Integer> inputs = new HashMap<>();
 	private final String prompt = "Please enter data regarding your guest interaction.";
-	
-	public static final String DISTANCE = "Distance"; 
-	public static final String DURATION = "Duration"; 
-	public static final String EXHALATION_LEVEL = "Exhalation Level"; 
+	private Scanner sn;
 
-	private void addInputTypes() {
-		inputs.put(DISTANCE, null);
-		inputs.put(DURATION, null);
-		inputs.put(EXHALATION_LEVEL, null);
+	private int inputNum(final String attr) {
+		System.out.println(attr + "?");
+		return (int) sn.nextDouble();
 	}
 	
 	@Override
 	public void processInput() {
-		final Scanner sn = new Scanner(System.in);
-		addInputTypes();
-
+		sn = new Scanner(System.in);
+		
 		for(;;) {
+			
 			System.out.println(prompt);
 			
-			
-			for(String inputType : inputs.keySet()) {
-				System.out.println(inputType + "?");
-				final int userInput = Integer.parseInt(sn.next());
-								
-				if(isValid(userInput)) {
-					inputs.put(inputType, userInput);
-										
-				} else {
-					System.out.println("Quitting.");
-				}
-								
+			final int distance = inputNum("Distance");
+			if(!isValid(distance)) {
+				break;
 			}
 			
-			ModelFactory.getSingleton().
-				setInput
-					(inputs.get(DISTANCE), 
-					inputs.get(DURATION),
-					inputs.get(EXHALATION_LEVEL));
+			final int duration = inputNum("Duration");
+			if(!isValid(duration)) {
+				break;
+			}
+			
+			final int exhalationLevel = inputNum("Exhalation Level");
+			if(!isValid(exhalationLevel)) {
+				break;
+			}
+			
+			ModelFactory.getSingleton()
+				.setInput(distance, duration, exhalationLevel);
 
 		}
-		//sn.close();
+		
+		System.out.println("Quitting.");
 	}
 	
 	private boolean isValid(final int input) {

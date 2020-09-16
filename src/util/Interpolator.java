@@ -3,8 +3,8 @@ package util;
 import java.util.ArrayList;
 import java.util.List;
 
-import data.Combination;
 import data.Constants;
+import pojo.Combination;
 
 public class Interpolator {
 	

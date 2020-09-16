@@ -3,6 +3,7 @@ package model;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
+
 abstract public class AbstractModel implements SocialDistancingModel {
 
 	private final PropertyChangeSupport propertyChangeSupport = new PropertyChangeSupport(this);

@@ -1,5 +1,9 @@
 package data;
 
+/**
+ * This class defines constant values that are outlined in 
+ *  Table 2 of the assignment.
+ */
 public class Constants {
 	
 	public static final int SMALL_DISTANCE = 6;

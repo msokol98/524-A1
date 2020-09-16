@@ -1,16 +1,16 @@
 package main;
 
 import controller.ConsoleSocialDistancingController;
-import factories.ClassifierFactory;
-import factories.ControllerFactory;
-import factories.ModelFactory;
-import factories.ViewFactory;
+import factory.ClassifierFactory;
+import factory.ControllerFactory;
+import factory.ModelFactory;
+import factory.ViewFactory;
 import gradingTools.comp524f20.assignment1.F20Assignment1Suite;
 import gradingTools.comp524f20.assignment1.SocialDistanceClassRegistry;
 import model.BasicModel;
 import model.DerivedModel;
+import model.InferredModel;
 import model.InterpolatingModel;
-import util.SocialDistanceUtilTester;
 import util.SocialDistancingUtil;
 import view.SocialDistancingViewImpl;
 
@@ -35,7 +35,7 @@ public class TestPlayground implements SocialDistanceClassRegistry {
 	@Override
 	public Class<?> getSocialDistancInferringModel() {
 		// TODO Auto-generated method stub
-		return InterpolatingModel.class;
+		return InferredModel.class;
 	}
 
 	@Override

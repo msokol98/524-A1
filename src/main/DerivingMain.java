@@ -1,6 +1,6 @@
 package main;
 
-import factories.ModelFactory;
+import factory.ModelFactory;
 import model.DerivedModel;
 import util.MvcUtil;
 
